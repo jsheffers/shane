@@ -52,5 +52,7 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
 
+  <script src="/sites/all/themes/shane/js/retina.js"></script>
+
 </body>
 </html>

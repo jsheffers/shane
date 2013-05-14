@@ -12,7 +12,6 @@ scripts[] = js/jquery.cycle.all.js
 scripts[] = js/jquery.formalize.js
 scripts[] = js/jquery.localscroll-1.2.7-min.js
 scripts[] = js/jquery.scrollTo-min.js
-scripts[] = js/retina.js
 
 scripts[] = script.js
 
