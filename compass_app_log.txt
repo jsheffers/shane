@@ -1,0 +1,11 @@
+2013-05-12 21:48:38     error sass/style.scss (Line 893: Invalid CSS after ":": expected pseudoclass or pseudoelement, was " {")
+2013-05-12 21:48:38    create stylesheets/style.css 
+2013-05-12 21:52:53     error sass/style.scss (Line 893: Invalid CSS after ":": expected pseudoclass or pseudoelement, was " {")
+2013-05-12 21:52:53 overwrite stylesheets/style.css 
+2013-05-12 21:53:26     error sass/style.scss (Line 893: Invalid CSS after "::": expected pseudoclass or pseudoelement, was "; {")
+2013-05-12 21:53:26 overwrite stylesheets/style.css 
+2013-05-12 21:53:29     error sass/style.scss (Line 893: Invalid CSS after "::": expected pseudoclass or pseudoelement, was " {")
+2013-05-12 21:53:29 overwrite stylesheets/style.css 
+2013-05-12 21:53:44     error sass/style.scss (Line 893: Invalid CSS after ":": expected pseudoclass or pseudoelement, was " {")
+2013-05-12 21:53:44 overwrite stylesheets/style.css 
+2013-05-12 21:53:51 overwrite stylesheets/style.css 

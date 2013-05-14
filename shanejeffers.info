@@ -1,0 +1,30 @@
+; $Id: garland.info,v 1.5 2007/07/01 23:27:32 goba Exp $
+name = ShaneJeffers
+description = Tableless, recolorable, multi-column, fluid width theme (default).
+version = VERSION
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = stylesheets/style.css
+stylesheets[all][] = responsive.css
+stylesheets[all][] = stylesheets/formalize.css
+stylesheets[all][] = stylesheets/animate.css
+scripts[] = js/jquery.cycle.all.js
+scripts[] = js/jquery.formalize.js
+scripts[] = js/jquery.localscroll-1.2.7-min.js
+scripts[] = js/jquery.scrollTo-min.js
+
+scripts[] = script.js
+
+; Information added by drupal.org packaging script on 2010-03-04
+version = "7.10"
+project = "drupal"
+datestamp = "1267662008"
+
+regions[left] = Left
+regions[right] = Right
+regions[sidebar] = Sidebar
+regions[content] = Content
+regions[footer_left] = Foot Left
+regions[footer_mid] = Foot Middle
+regions[footer_right] = Foot Right
+regions[copyright] = Copyright 
