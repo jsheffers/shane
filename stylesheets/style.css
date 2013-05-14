@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 20, ../sass/style.scss */
 body {
-  background: #151515 url(images/wood.png) top center no-repeat;
+  background: #151515 url(../images/wood.png) top center no-repeat;
   height: 100%;
   font-family: "Open Sans", "Helvetica", sans-serif;
   text-rendering: optimizeLegibility;
@@ -94,7 +94,7 @@ body {
 /* line 72, ../sass/style.scss */
 #hello h1 {
   text-indent: -9999px;
-  background: url(images/hello.png);
+  background: url(../images/hello.png);
   width: 578px;
   height: 121px;
   margin: 45px 0px;
@@ -214,25 +214,25 @@ body {
 /* line 148, ../sass/style.scss */
 a.twitter {
   color: #33cbfe;
-  background: url(images/icon-sprite.png) no-repeat;
+  background: url(../images/icon-sprite.png) no-repeat;
   height: 16px;
 }
 /* line 152, ../sass/style.scss */
 a.stumble {
   color: #4fb667;
-  background: url(images/icon-sprite.png) 0px -17px no-repeat;
+  background: url(../images/icon-sprite.png) 0px -17px no-repeat;
   height: 16px;
 }
 /* line 156, ../sass/style.scss */
 a.linkedin {
   color: #3585a4;
-  background: url(images/icon-sprite.png) 0px -34px no-repeat;
+  background: url(../images/icon-sprite.png) 0px -34px no-repeat;
   height: 16px;
 }
 /* line 160, ../sass/style.scss */
 a.threestyles {
   color: #ff7f2a;
-  background: url(images/icon-sprite.png) 0px -51px no-repeat;
+  background: url(../images/icon-sprite.png) 0px -51px no-repeat;
   height: 16px;
 }
 
@@ -263,7 +263,7 @@ a.threestyles {
 }
 /* line 183, ../sass/style.scss */
 #col1 .content ul li {
-  background: url(images/check.png) no-repeat;
+  background: url(../images/check.png) no-repeat;
   list-style-type: none;
   padding-left: 30px;
 }
@@ -294,7 +294,7 @@ a.threestyles {
 #ipad {
   width: 448px;
   height: 507px;
-  background: url(images/ipad.png);
+  background: url(../images/ipad.png);
   position: relative;
   z-index: -1;
   margin: 0px 0px 0px 50px;
@@ -835,7 +835,7 @@ a.threestyles {
   padding: 6px;
   float: none;
   display: block;
-  background: url(images/btn.png) no-repeat;
+  background: url(../images/btn.png) no-repeat;
   border: 0px;
   text-indent: -9999px;
   margin-top: 30px;
@@ -892,7 +892,7 @@ a.threestyles {
   padding: 6px;
   float: none;
   display: block;
-  background: url(images/btn.png) no-repeat;
+  background: url(../images/btn.png) no-repeat;
   border: 0px;
   text-indent: -9999px;
   margin-top: 30px;
@@ -958,7 +958,7 @@ a.threestyles {
   padding: 6px;
   float: none;
   display: block;
-  background: url(images/btn.png) no-repeat;
+  background: url(../images/btn.png) no-repeat;
   border: 0px;
   text-indent: -9999px;
   margin-top: 30px;
@@ -1068,7 +1068,7 @@ a.threestyles {
 }
 /* line 787, ../sass/style.scss */
 #webform-component-select-project-type div.parent {
-  background: #bee5c6 url(images/check.png) 280px 20px no-repeat;
+  background: #bee5c6 url(../images/check.png) 280px 20px no-repeat;
   color: #667b6a;
   text-shadow: #e7f8eb 1px 1px 1px;
 }
