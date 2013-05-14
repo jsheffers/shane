@@ -10,7 +10,7 @@
 <div id="container">
 
 	<div id="header">
-			<a href="http://shanejeffers.com" id="logo" class="animated fadeInDown"></a>
+			<a href="http://shanejeffers.com" id="logo" class="animated fadeInDown"><img src="/sites/all/themes/shane/images/logo.png" /></a>
 			<?php if ($main_menu): ?>
 		      <div id="main-menu" class="navigation animated fadeInDown">
 		        <?php print theme('links__system_main_menu', array(
