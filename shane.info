@@ -1,5 +1,5 @@
 ; $Id: garland.info,v 1.5 2007/07/01 23:27:32 goba Exp $
-name = ShaneJeffers
+name = Shane
 description = Tableless, recolorable, multi-column, fluid width theme (default).
 version = VERSION
 core = 7.x
