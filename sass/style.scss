@@ -745,19 +745,15 @@ a {
 .form-required {
   color: $red; }
 
-
-#ptype {
-  position: absolute;
-  top:0px;
-  right: 0px; 
-}
-
 .fixed {
   position: fixed;
   top: 0px;
 }
 
 #webform-component-select-project-type {
+  position: absolute;
+  top:0px;
+  right: 0px;
   label {
     display: block;
     margin: 0px;
