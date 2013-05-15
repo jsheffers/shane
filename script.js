@@ -1,10 +1,12 @@
 jQuery(document).ready(function($) {
 	
-	$('#ipadcontent').cycle({
-		fx: 'scrollLeft',
-		speed:    1000, 
-	    timeout:  5000 // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-	});
+	if( $('#ipadcontent')[0] ) {
+		$('#ipadcontent').cycle({
+			fx: 'scrollLeft',
+			speed:    1000, 
+		    timeout:  5000 // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		});
+	}
 	
 	$('.form-checkbox').click(function(){
 		$(this).toggleClass('checks');
