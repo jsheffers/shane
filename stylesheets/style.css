@@ -1065,12 +1065,13 @@ a.threestyles {
 /* line 783, ../sass/style.scss */
 #webform-component-select-project-type div.parent {
   background: #bee5c6 url(../images/check.png) 280px 20px no-repeat;
-  color: #667b6a;
+  color: #444;
   text-shadow: #e7f8eb 1px 1px 1px;
 }
 /* line 787, ../sass/style.scss */
 #webform-component-select-project-type div.parent label {
   text-shadow: none;
+  color: #444;
 }
 
 /*** SIDEBAR RSS BLOCK ***/
