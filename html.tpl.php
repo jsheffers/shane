@@ -36,7 +36,7 @@
 <html lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>" <?php print $rdf->version . $rdf->namespaces; ?>>
 <head<?php print $rdf->profile; ?>>
   <?php print $head; ?>
- <meta name="viewport" content="user-scalable=yes, target-densityDpi=device-dpi, initial-scale=1.0" />
+ <meta name="viewport" content="user-scalable=yes, initial-scale=1.0" />
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
