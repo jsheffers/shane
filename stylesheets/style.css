@@ -482,7 +482,7 @@ a.threestyles {
 }
 
 /* line 350, ../sass/style.scss */
-.page-work #page-left, .page-taxonomy #page-left, .node-type-webform #page-left, .node-type-blog #page-left {
+.page-work #page-left, .page-taxonomy #page-left, .node-type-webform #page-left, .node-type-blog #page-left, .page-blog #page-left {
   width: 960px;
 }
 
