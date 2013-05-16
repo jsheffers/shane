@@ -183,7 +183,7 @@
 	.panels-flexible-region-case_study_layout-screenshots { width: 62%; }
 	.view-id-Work .project { width: 100%; }
 
-	.page-blog #content #page-left, .node-type-blog #content #page-left { width: 750px; }
+	.page-blog #content #page-left, .node-type-blog #content #page-left { }
 
 	#copyright { width: 1100px; }
 }
