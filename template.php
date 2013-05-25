@@ -95,5 +95,5 @@ function shane_breadcrumb($vars) {
   return '';
 }
 
-drupal_add_js(drupal_get_path('theme', 'shane') .'js/joyride.js');
-drupal_add_js(drupal_get_path('theme', 'shane') .'js/custom.js');
+drupal_add_js(drupal_get_path('theme', 'shane') .'/js/joyride.js');
+drupal_add_js(drupal_get_path('theme', 'shane') .'/js/custom.js');
