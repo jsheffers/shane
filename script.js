@@ -18,8 +18,8 @@ jQuery(document).ready(function($) {
 	// ANIMATED SCROLL
 	$('#tothetop').localScroll();
 
-	$('#joyRide').joyride({
-		autoStart: true
-	});
+	// $('#joyRide').joyride({
+	// 	autoStart: true
+	// });
 
 });
