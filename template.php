@@ -95,7 +95,7 @@ function shane_breadcrumb($vars) {
   return '';
 }
 
- function hook_jqmulti_libraries() {
+ function shane_hook_jqmulti_libraries() {
   return array(
       'joyride'
       );
