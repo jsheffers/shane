@@ -16,7 +16,7 @@ scripts[] = js/jquery.formalize.js
 scripts[] = js/jquery.localscroll-1.2.7-min.js
 scripts[] = js/jquery.scrollTo-min.js
 scripts[] = js/joyride.js
-scripts[] = script.js
+
 
 ; Information added by drupal.org packaging script on 2010-03-04
 version = "7.10"
