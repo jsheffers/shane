@@ -53,6 +53,11 @@
   <?php print $page_bottom; ?>
 
   <script src="/sites/all/themes/shane/js/retina.js"></script>
+  <script>
+  $(window).load(function() {
+    $("#joyRide").joyride({});
+  });
+</script>
 
 </body>
 </html>
