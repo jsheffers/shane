@@ -94,3 +94,6 @@ function shane_breadcrumb($vars) {
   // Otherwise, return an empty string.
   return '';
 }
+
+drupal_add_js(drupal_get_path('theme', 'shane') .'js/joyride.js');
+drupal_add_js(drupal_get_path('theme', 'shane') .'js/custom.js');
