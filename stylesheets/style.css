@@ -1229,3 +1229,8 @@ p {
 #node-form, #content-field-edit-form, #views-ui-add-form {
   background: #fff;
 }
+
+/* line 895, ../sass/style.scss */
+#joyRide {
+  display: none;
+}
