@@ -53,6 +53,7 @@
   <?php print $page_bottom; ?>
 
   <script src="/sites/all/themes/shane/js/retina.js"></script>
+  <script src="/sites/all/themes/shane/js/custom.js"></script>
   <script src="/sites/all/themes/shane/script.js"></script>
 
 
