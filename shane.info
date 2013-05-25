@@ -4,15 +4,18 @@ description = Tableless, recolorable, multi-column, fluid width theme (default).
 version = VERSION
 core = 7.x
 engine = phptemplate
+
 stylesheets[all][] = stylesheets/style.css
 stylesheets[all][] = responsive.css
 stylesheets[all][] = stylesheets/formalize.css
 stylesheets[all][] = stylesheets/animate.css
+stylesheets[all][] = stylesheets/joyride.css
+
 scripts[] = js/jquery.cycle.all.js
 scripts[] = js/jquery.formalize.js
 scripts[] = js/jquery.localscroll-1.2.7-min.js
 scripts[] = js/jquery.scrollTo-min.js
-
+scripts[] = js/joyride.js
 scripts[] = script.js
 
 ; Information added by drupal.org packaging script on 2010-03-04
