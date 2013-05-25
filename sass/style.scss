@@ -6,9 +6,9 @@ $red: #f24a57;
 
 * {
   margin: 0px;
-  padding: 0px; 
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
+  padding: 0px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -118,10 +118,10 @@ body {
     margin-bottom: 5px;
     display: block;
     &:hover {
-      text-decoration: underline; } } 
-  ol { font-size: 14px; margin: 10px 0 10px 20px; 
-    li { margin-bottom: 5px; } } 
-  h2 { color: #fff; font-size: 28px; margin: 50px 0 15px 0; line-height: 30px;}   
+      text-decoration: underline; } }
+  ol { font-size: 14px; margin: 10px 0 10px 20px;
+    li { margin-bottom: 5px; } }
+  h2 { color: #fff; font-size: 28px; margin: 50px 0 15px 0; line-height: 30px;}
   pre { background: #333; color: #ddd; padding: 20px; margin: 20px 0; overflow: scroll;}
 }
 
@@ -138,7 +138,7 @@ body {
     font-size: 12px;
     line-height: 18px;
     li {
-      margin-bottom: 10px; 
+      margin-bottom: 10px;
 	  font-size: 13px;						} } }
 
 #block-block-3 a {
@@ -458,7 +458,7 @@ a {
   border-right: 1px solid #c33944;
   border-bottom: 1px solid #87242c; }
 
-#tothetop a { 
+#tothetop a {
   background-color: $red;
   -webkit-box-shadow: 0 1px 0 0 #e87982 inset, 0 1px 5px 0 #222;
   color: #fff;
@@ -516,6 +516,7 @@ a {
   margin-bottom: 0px; }
 
 .view-blog .view-header a { color: #33cbfe; text-decoration: none;}
+.view-blog .view-header a.rss { color: #ff7f2a; }
 .view-blog p, .node-blog p { font-size: 16px; line-height: 22px; }
 .node-blog h3 {
   color: #999;
@@ -757,7 +758,7 @@ a {
   label {
     display: block;
     margin: 0px;
-    padding: 20px; } 
+    padding: 20px; }
   background: #222;
   border: 1px solid #2e2e2e;
   width: 312px;
@@ -765,7 +766,7 @@ a {
   .form-checkboxes div {
     border-bottom: 1px solid #2e2e2e;
     border-top: 1px solid #000;
-    	/*-webkit-transition-property:color, background;  
+    	/*-webkit-transition-property:color, background;
      -webkit-transition-duration: .25s, .25s; */
     -moz-transition: all .25s;
     font-size: 20px;
@@ -830,11 +831,11 @@ a {
         &:hover a {
           background: $red;
           color: #fff; } }
-  & h2 { 
+  & h2 {
     padding-left: 0px;
     font-size: 20px;
     margin-bottom: 20px;
-      }        
+      }
 }
 
 /**** BLOG STYLES ****/

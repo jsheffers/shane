@@ -709,12 +709,17 @@ a.threestyles {
 }
 
 /* line 519, ../sass/style.scss */
+.view-blog .view-header a.rss {
+  color: #ff7f2a;
+}
+
+/* line 520, ../sass/style.scss */
 .view-blog p, .node-blog p {
   font-size: 16px;
   line-height: 22px;
 }
 
-/* line 520, ../sass/style.scss */
+/* line 521, ../sass/style.scss */
 .node-blog h3 {
   color: #999;
   font-size: 22px;
@@ -723,7 +728,7 @@ a.threestyles {
 }
 
 /*** Footer ***/
-/* line 528, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 #footer {
   width: 100%;
   background: #000;
@@ -733,13 +738,13 @@ a.threestyles {
   clear: both;
 }
 
-/* line 536, ../sass/style.scss */
+/* line 537, ../sass/style.scss */
 .push {
   height: 50px;
   clear: both;
 }
 
-/* line 540, ../sass/style.scss */
+/* line 541, ../sass/style.scss */
 #copyright {
   font-family: arial;
   width: 960px;
@@ -751,16 +756,16 @@ a.threestyles {
 }
 
 /*** Forms Styles ***/
-/* line 551, ../sass/style.scss */
+/* line 552, ../sass/style.scss */
 #node-5 .content {
   width: 600px;
 }
-/* line 553, ../sass/style.scss */
+/* line 554, ../sass/style.scss */
 #node-5 .content p {
   margin-bottom: 15px;
 }
 
-/* line 556, ../sass/style.scss */
+/* line 557, ../sass/style.scss */
 #webform-client-form-5 {
   background: #222;
   padding: 20px;
@@ -770,12 +775,12 @@ a.threestyles {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
-/* line 564, ../sass/style.scss */
+/* line 565, ../sass/style.scss */
 #webform-client-form-5 .form-item {
   float: left;
   margin: 0px;
 }
-/* line 567, ../sass/style.scss */
+/* line 568, ../sass/style.scss */
 #webform-client-form-5 textarea {
   width: 530px;
   height: 150px;
@@ -785,7 +790,7 @@ a.threestyles {
   color: #ececec;
   padding: 7px;
 }
-/* line 575, ../sass/style.scss */
+/* line 576, ../sass/style.scss */
 #webform-client-form-5 input {
   width: 250px;
   padding: 7px;
@@ -795,39 +800,39 @@ a.threestyles {
   color: #ececec;
 }
 
-/* line 583, ../sass/style.scss */
+/* line 584, ../sass/style.scss */
 #webform-component-comment #edit-submitted-comment-wrapper {
   margin-top: 20px;
 }
 
-/* line 586, ../sass/style.scss */
+/* line 587, ../sass/style.scss */
 .webform-component-file {
   clear: both;
   margin-top: 20px;
 }
-/* line 589, ../sass/style.scss */
+/* line 590, ../sass/style.scss */
 .webform-component-file input, .webform-component-file label {
   float: left;
   background: transparent;
   margin-top: 20px;
 }
-/* line 593, ../sass/style.scss */
+/* line 594, ../sass/style.scss */
 .webform-component-file input {
   margin-top: 15px;
 }
-/* line 595, ../sass/style.scss */
+/* line 596, ../sass/style.scss */
 .webform-component-file label {
   margin-top: 22px;
 }
 
-/* line 598, ../sass/style.scss */
+/* line 599, ../sass/style.scss */
 .form-file {
   background: transparent;
   border: 0px;
   margin-bottom: 20px;
 }
 
-/* line 603, ../sass/style.scss */
+/* line 604, ../sass/style.scss */
 #webform-client-form-5 .form-submit {
   clear: both;
   width: 167px;
@@ -841,17 +846,17 @@ a.threestyles {
   margin-top: 30px;
 }
 
-/* line 615, ../sass/style.scss */
+/* line 616, ../sass/style.scss */
 .webform-component-textfield, #edit-submitted-name {
   margin-right: 20px;
 }
 
-/* line 618, ../sass/style.scss */
+/* line 619, ../sass/style.scss */
 .submitted {
   display: none;
 }
 
-/* line 621, ../sass/style.scss */
+/* line 622, ../sass/style.scss */
 #webform-client-form-7 {
   background: #222;
   padding: 20px;
@@ -860,12 +865,12 @@ a.threestyles {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
-/* line 628, ../sass/style.scss */
+/* line 629, ../sass/style.scss */
 #webform-client-form-7 .form-item {
   float: left;
   margin: 0px;
 }
-/* line 631, ../sass/style.scss */
+/* line 632, ../sass/style.scss */
 #webform-client-form-7 textarea {
   width: 530px;
   height: 150px;
@@ -875,7 +880,7 @@ a.threestyles {
   color: #ececec;
   padding: 7px;
 }
-/* line 639, ../sass/style.scss */
+/* line 640, ../sass/style.scss */
 #webform-client-form-7 input {
   width: 250px;
   padding: 7px;
@@ -884,7 +889,7 @@ a.threestyles {
   outline: none;
   color: #ececec;
 }
-/* line 646, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 #webform-client-form-7 .form-submit {
   clear: both;
   width: 167px;
@@ -898,7 +903,7 @@ a.threestyles {
   margin-top: 30px;
 }
 
-/* line 658, ../sass/style.scss */
+/* line 659, ../sass/style.scss */
 #webform-client-form-8 {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -906,11 +911,11 @@ a.threestyles {
   -moz-border-radius: 10px;
   position: relative;
 }
-/* line 664, ../sass/style.scss */
+/* line 665, ../sass/style.scss */
 #webform-client-form-8 .form-item .form-item {
   margin: 0px;
 }
-/* line 666, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 #webform-client-form-8 textarea {
   width: 600px;
   height: 150px;
@@ -924,7 +929,7 @@ a.threestyles {
   font-size: 20px;
   font-family: "Arvo", "Helvetica", serif;
 }
-/* line 678, ../sass/style.scss */
+/* line 679, ../sass/style.scss */
 #webform-client-form-8 input {
   width: 600px;
   padding: 20px 10px;
@@ -940,17 +945,17 @@ a.threestyles {
   font-size: 20px;
   font-family: "Arvo", "Helvetica", serif;
 }
-/* line 692, ../sass/style.scss */
+/* line 693, ../sass/style.scss */
 #webform-client-form-8 input[type=text]:hover {
   background: #333;
   border: 1px solid #3e3e3e;
   color: #fff;
 }
-/* line 696, ../sass/style.scss */
+/* line 697, ../sass/style.scss */
 #webform-client-form-8 select {
   margin-bottom: 15px;
 }
-/* line 698, ../sass/style.scss */
+/* line 699, ../sass/style.scss */
 #webform-client-form-8 .form-submit {
   clear: both;
   width: 167px;
@@ -963,24 +968,24 @@ a.threestyles {
   text-indent: -9999px;
   margin-top: 30px;
 }
-/* line 709, ../sass/style.scss */
+/* line 710, ../sass/style.scss */
 #webform-client-form-8 .form-checkbox {
   width: 20px;
   display: none;
 }
-/* line 712, ../sass/style.scss */
+/* line 713, ../sass/style.scss */
 #webform-client-form-8 label {
   margin-bottom: 5px;
   color: #aaa;
   font-size: 16px;
   font-weight: normal;
 }
-/* line 718, ../sass/style.scss */
+/* line 719, ../sass/style.scss */
 #webform-client-form-8 #webform-component-project_budget label {
   display: block;
   font-size: 20px;
 }
-/* line 721, ../sass/style.scss */
+/* line 722, ../sass/style.scss */
 #webform-client-form-8 .form-checkboxes label {
   display: block;
   text-shadow: 1px 1px 1px #000;
@@ -988,20 +993,20 @@ a.threestyles {
   cursor: pointer;
   -webkit-transition: all .25s;
 }
-/* line 727, ../sass/style.scss */
+/* line 728, ../sass/style.scss */
 #webform-client-form-8 .first-label {
   background: #f24a57;
   color: #fff;
   font-size: 22px;
   text-shadow: #b83742 1px 1px 1px;
 }
-/* line 732, ../sass/style.scss */
+/* line 733, ../sass/style.scss */
 #webform-client-form-8 .form-item input.error {
   background: #f24a57;
   color: #fff;
   border: 1px solid #fd4d5b;
 }
-/* line 736, ../sass/style.scss */
+/* line 737, ../sass/style.scss */
 #webform-client-form-8 div.error {
   width: 300px;
   padding: 10px;
@@ -1009,23 +1014,23 @@ a.threestyles {
   color: #fff;
   margin-bottom: 20px;
 }
-/* line 742, ../sass/style.scss */
+/* line 743, ../sass/style.scss */
 #webform-client-form-8 div.error ul {
   list-style-type: none;
 }
 
-/* line 745, ../sass/style.scss */
+/* line 746, ../sass/style.scss */
 .form-required {
   color: #f24a57;
 }
 
-/* line 748, ../sass/style.scss */
+/* line 749, ../sass/style.scss */
 .fixed {
   position: fixed;
   top: 0px;
 }
 
-/* line 753, ../sass/style.scss */
+/* line 754, ../sass/style.scss */
 #webform-component-select-project-type {
   position: absolute;
   top: 0px;
@@ -1035,68 +1040,68 @@ a.threestyles {
   width: 312px;
   margin-bottom: 20px;
 }
-/* line 757, ../sass/style.scss */
+/* line 758, ../sass/style.scss */
 #webform-component-select-project-type label {
   display: block;
   margin: 0px;
   padding: 20px;
 }
-/* line 765, ../sass/style.scss */
+/* line 766, ../sass/style.scss */
 #webform-component-select-project-type .form-checkboxes div {
   border-bottom: 1px solid #2e2e2e;
   border-top: 1px solid #000;
-  	/*-webkit-transition-property:color, background;  
+  	/*-webkit-transition-property:color, background;
    -webkit-transition-duration: .25s, .25s; */
   -moz-transition: all .25s;
   font-size: 20px;
   font-family: "Arvo", "Helvetica", serif;
 }
 
-/* line 777, ../sass/style.scss */
+/* line 778, ../sass/style.scss */
 #webform-component-select-project-type .form-checkboxes {
   margin: 0px;
   padding: 0px;
 }
-/* line 778, ../sass/style.scss */
+/* line 779, ../sass/style.scss */
 #webform-component-select-project-type .form-checkboxes input {
   margin: 0px;
   padding: 0px;
 }
-/* line 783, ../sass/style.scss */
+/* line 784, ../sass/style.scss */
 #webform-component-select-project-type div.parent {
   background: #bee5c6 url(../images/check.png) 280px 20px no-repeat;
   color: #444;
   text-shadow: #e7f8eb 1px 1px 1px;
 }
-/* line 787, ../sass/style.scss */
+/* line 788, ../sass/style.scss */
 #webform-component-select-project-type div.parent label {
   text-shadow: none;
   color: #444;
 }
 
 /*** SIDEBAR RSS BLOCK ***/
-/* line 793, ../sass/style.scss */
+/* line 794, ../sass/style.scss */
 #block-aggregator-feed-1 h2 {
   display: block;
   color: #fff;
 }
-/* line 796, ../sass/style.scss */
+/* line 797, ../sass/style.scss */
 #block-aggregator-feed-1 ul li {
   list-style-type: none;
   margin: 0px 0px;
   padding: 10px 0px;
   border-bottom: 1px solid #333;
 }
-/* line 801, ../sass/style.scss */
+/* line 802, ../sass/style.scss */
 #block-aggregator-feed-1 ul li a {
   color: #666;
   text-decoration: none;
 }
-/* line 804, ../sass/style.scss */
+/* line 805, ../sass/style.scss */
 #block-aggregator-feed-1 ul li a:hover {
   color: #f24a57;
 }
-/* line 806, ../sass/style.scss */
+/* line 807, ../sass/style.scss */
 #block-aggregator-feed-1 .more-link a {
   background: #f24a57;
   color: #fff;
@@ -1104,18 +1109,18 @@ a.threestyles {
   padding: 5px 10px 7px 10px;
 }
 
-/* line 813, ../sass/style.scss */
+/* line 814, ../sass/style.scss */
 .panel-pane.pane-node-terms {
   clear: both;
 }
-/* line 815, ../sass/style.scss */
+/* line 816, ../sass/style.scss */
 .panel-pane.pane-node-terms li {
   padding: 0px;
   margin: 0px;
   float: left;
   list-style: none;
 }
-/* line 820, ../sass/style.scss */
+/* line 821, ../sass/style.scss */
 .panel-pane.pane-node-terms li a {
   color: #626262;
   text-decoration: none;
@@ -1127,12 +1132,12 @@ a.threestyles {
   -webkit-transition: All .25s ease-in-out;
   -moz-transition: All .25s ease-in-out;
 }
-/* line 830, ../sass/style.scss */
+/* line 831, ../sass/style.scss */
 .panel-pane.pane-node-terms li:hover a {
   background: #f24a57;
   color: #fff;
 }
-/* line 833, ../sass/style.scss */
+/* line 834, ../sass/style.scss */
 .panel-pane.pane-node-terms h2 {
   padding-left: 0px;
   font-size: 20px;
@@ -1140,44 +1145,44 @@ a.threestyles {
 }
 
 /**** BLOG STYLES ****/
-/* line 842, ../sass/style.scss */
+/* line 843, ../sass/style.scss */
 .field-name-field-featured-blog-image {
   margin: 20px 0;
 }
 
-/* line 846, ../sass/style.scss */
+/* line 847, ../sass/style.scss */
 #page-left .blog-title {
   margin: 0 0 25px 0;
   line-height: 28px;
 }
 
-/* line 847, ../sass/style.scss */
+/* line 848, ../sass/style.scss */
 .blog-title a {
   text-decoration: none;
 }
 
-/* line 849, ../sass/style.scss */
+/* line 850, ../sass/style.scss */
 .post-teaser {
   padding: 30px 0;
 }
 
-/* line 853, ../sass/style.scss */
+/* line 854, ../sass/style.scss */
 .twitter-share-button, .fb-like {
   float: left;
 }
 
-/* line 854, ../sass/style.scss */
+/* line 855, ../sass/style.scss */
 .social {
   overflow: hidden;
 }
 
-/* line 855, ../sass/style.scss */
+/* line 856, ../sass/style.scss */
 #___plusone_0 {
   position: relative;
   left: 20px;
 }
 
-/* line 857, ../sass/style.scss */
+/* line 858, ../sass/style.scss */
 #disqus_thread {
   padding: 15px;
   background: #222;
@@ -1185,11 +1190,11 @@ a.threestyles {
   border-radius: 10px;
 }
 
-/* line 858, ../sass/style.scss */
+/* line 859, ../sass/style.scss */
 #page-left .demo {
   overflow: hidden;
 }
-/* line 859, ../sass/style.scss */
+/* line 860, ../sass/style.scss */
 #page-left .demo > li {
   float: left;
   margin-right: 20px;
@@ -1197,30 +1202,30 @@ a.threestyles {
 
 /**** MEDIA QUERIES *****/
 /**** MESSAGES ****/
-/* line 869, ../sass/style.scss */
+/* line 870, ../sass/style.scss */
 .messages.error {
   background-color: #f24a57;
 }
-/* line 871, ../sass/style.scss */
+/* line 872, ../sass/style.scss */
 .messages.error label {
   color: #fff;
 }
 
 /*** System CSS Overrides ***/
-/* line 880, ../sass/style.scss */
+/* line 881, ../sass/style.scss */
 .block ul {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 884, ../sass/style.scss */
+/* line 885, ../sass/style.scss */
 p {
   color: #555;
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 886, ../sass/style.scss */
+/* line 887, ../sass/style.scss */
 #node-form, #content-field-edit-form, #views-ui-add-form {
   background: #fff;
 }
