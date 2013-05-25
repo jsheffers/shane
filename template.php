@@ -95,8 +95,4 @@ function shane_breadcrumb($vars) {
   return '';
 }
 
- function shane_hook_jqmulti_libraries() {
-  return array(
-      'joyride'
-      );
-  }
+drupal_add_js('/sites/all/libraries/joyride/joyride.js');
