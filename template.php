@@ -95,4 +95,4 @@ function shane_breadcrumb($vars) {
   return '';
 }
 
-drupal_add_js('/sites/all/libraries/joyride/joyride.js');
+// drupal_add_js('/sites/all/libraries/joyride/joyride.js');
