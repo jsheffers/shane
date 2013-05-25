@@ -17,5 +17,8 @@ jQuery(document).ready(function($) {
 
 	// ANIMATED SCROLL
 	$('#tothetop').localScroll();
+
+	$("#joyRide").joyride();
+
 });
 
