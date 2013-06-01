@@ -521,6 +521,10 @@ a.threestyles {
   line-height: 27px;
   margin-top: 40px; }
 
+.page-blog .view-blog .views-row img {
+  display: block;
+  margin-bottom: 20px; }
+
 /*** Footer ***/
 #footer {
   width: 100%;
