@@ -310,6 +310,9 @@ a.threestyles {
   .view-id-Work .project img {
     float: left;
     margin-right: 30px;
+    padding-top: 30px;
+    background: #dddddd url(../images/browser_buttons.png) 10px 10px no-repeat;
+    border-radius: 3px;
     /*border: 5px solid #333;*/ }
 
 .view-taxonomy-listing img {
