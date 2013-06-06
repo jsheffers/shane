@@ -470,7 +470,8 @@ a.threestyles {
   display: block;
   margin-bottom: 50px;
   padding-top: 30px;
-  background: #dddddd url(../images/browser_buttons.png) 0 10px no-repeat; }
+  background: #dddddd url(../images/browser_buttons.png) 10px 10px no-repeat;
+  border-radius: 3px; }
 
 #screenshots img {
   margin-bottom: 5px; }

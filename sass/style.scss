@@ -480,7 +480,8 @@ a {
   display: block;
   margin-bottom: 50px;
   padding-top: 30px;
-  background: #ddd url(../images/browser_buttons.png) 0 10px no-repeat;
+  background: #ddd url(../images/browser_buttons.png) 10px 10px no-repeat;
+  border-radius: 3px;
 }
 
 #screenshots {
