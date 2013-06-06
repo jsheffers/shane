@@ -478,7 +478,10 @@ a {
 
 .screenshots img {
   display: block;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-top: 25px;
+  background:#ccc;
+}
 
 #screenshots {
   img {
