@@ -469,8 +469,8 @@ a.threestyles {
 .screenshots img {
   display: block;
   margin-bottom: 50px;
-  padding-top: 25px;
-  background: #ccc; }
+  padding-top: 30px;
+  background: #cccccc url(../browser_buttons.png) 0 10px no-repeat; }
 
 #screenshots img {
   margin-bottom: 5px; }
