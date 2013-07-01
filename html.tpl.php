@@ -50,7 +50,8 @@
   <meta content='width=device-width, initial-scale=1.0' name='viewport' />
   <?php print $head; ?>
   <?php print $styles; ?>
-  <?php print $scripts; ?>    
+  <?php print $scripts; ?>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
