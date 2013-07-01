@@ -181,6 +181,10 @@ h6 {@include adjust-font-size-to(16px);}
 			@include at-breakpoint($ipad){ @include span-columns(4 omega,12); }
 			.content ul.menu {
 				float: right;
+				@include at-breakpoint($iphone) {
+					float: left;
+					margin: 20px 0;
+				}
 				li {
 					list-style: none;
 					float: left;
