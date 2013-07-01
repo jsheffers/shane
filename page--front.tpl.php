@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <section class="header-full">
   <header class="header">
-    <a href="<?php print $front_page; ?>" class="logo"><img src="/sites/shane.shanejeffers.com/themes/Shane_Jeffers/img/logo.png" alt=""></a>
+    <a href="<?php print $front_page; ?>" class="logo"><img src="/sites/all/themes/shane/img/logo.png" alt=""></a>
     <?php print render($page['nav']); ?>
   </header>
 </section>
