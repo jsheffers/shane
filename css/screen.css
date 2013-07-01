@@ -4980,7 +4980,13 @@ h6 {
   /* line 575, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .field-name-field-featured-blog-image {
     margin-top: 10px; }
-  /* line 579, ../sass/screen.scss */
+    @media (min-width: 320px) and (max-width: 568px) {
+      /* line 575, ../sass/screen.scss */
+      .node-type-blog .content-wrap .content-inner .field-name-field-featured-blog-image {
+        width: 100%;
+        float: left;
+        margin-right: 5.61798%; } }
+  /* line 580, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .field-name-body h2 {
     color: #fff;
     font-family: HelveticaNeue-CondensedBold, sans-serif;
@@ -4989,7 +4995,7 @@ h6 {
     font-size: 2.1875em;
     line-height: 1.37143em;
     clear: both; }
-  /* line 587, ../sass/screen.scss */
+  /* line 588, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .field-name-body h3 {
     color: #fff;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
@@ -4997,7 +5003,7 @@ h6 {
     line-height: 1.92em;
     line-height: 1.2em;
     margin-bottom: 10px; }
-  /* line 594, ../sass/screen.scss */
+  /* line 595, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .field-name-body .codeblock {
     background: #333;
     color: #ddd;
@@ -5005,29 +5011,29 @@ h6 {
     margin: 20px 0;
     overflow: scroll;
     border-radius: 8px; }
-  /* line 603, ../sass/screen.scss */
+  /* line 604, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .work-more a {
     color: #222;
     clear: left; }
-  /* line 608, ../sass/screen.scss */
+  /* line 609, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .row.even {
     width: 49.09747%;
     float: left;
     margin-right: 1.80505%;
     display: inline; }
     @media (min-width: 320px) and (max-width: 568px) {
-      /* line 608, ../sass/screen.scss */
+      /* line 609, ../sass/screen.scss */
       .node-type-blog .content-wrap .content-inner .row.even {
         width: 100%;
         float: left;
         margin-right: 5.61798%; } }
     @media (min-width: 768px) and (max-width: 1024px) {
-      /* line 608, ../sass/screen.scss */
+      /* line 609, ../sass/screen.scss */
       .node-type-blog .content-wrap .content-inner .row.even {
         width: 100%;
         float: left;
         margin-right: 5.61798%; } }
-  /* line 613, ../sass/screen.scss */
+  /* line 614, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .row.odd {
     width: 49.09747%;
     float: right;
@@ -5035,140 +5041,140 @@ h6 {
     *margin-left: -20px;
     display: inline; }
     @media (min-width: 320px) and (max-width: 568px) {
-      /* line 613, ../sass/screen.scss */
+      /* line 614, ../sass/screen.scss */
       .node-type-blog .content-wrap .content-inner .row.odd {
         width: 100%;
         float: left;
         margin-right: 5.61798%; } }
     @media (min-width: 768px) and (max-width: 1024px) {
-      /* line 613, ../sass/screen.scss */
+      /* line 614, ../sass/screen.scss */
       .node-type-blog .content-wrap .content-inner .row.odd {
         width: 100%;
         float: left;
         margin-right: 5.61798%; } }
-  /* line 618, ../sass/screen.scss */
+  /* line 619, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .row p {
     margin-top: 0; }
-  /* line 620, ../sass/screen.scss */
+  /* line 621, ../sass/screen.scss */
   .node-type-blog .content-wrap .content-inner .demo {
     margin: 0;
     padding: 0; }
-    /* line 623, ../sass/screen.scss */
+    /* line 624, ../sass/screen.scss */
     .node-type-blog .content-wrap .content-inner .demo li {
       margin: 0;
       padding: 0;
       list-style: none;
       float: left; }
-      /* line 628, ../sass/screen.scss */
+      /* line 629, ../sass/screen.scss */
       .node-type-blog .content-wrap .content-inner .demo li a {
         margin-right: 20px; }
 
-/* line 642, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 .not-front.page-node-1 .content-wrap {
   background: #e64a3e; }
 
-/* line 645, ../sass/screen.scss */
+/* line 646, ../sass/screen.scss */
 .not-front.page-node-2 .content-wrap {
   background: #92b170; }
 
-/* line 648, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 .not-front.page-node-3 .content-wrap {
   background: #3856a9; }
-  /* line 650, ../sass/screen.scss */
+  /* line 651, ../sass/screen.scss */
   .not-front.page-node-3 .content-wrap .field-name-body p {
     color: #b3b3b3; }
 
-/* line 652, ../sass/screen.scss */
+/* line 653, ../sass/screen.scss */
 .not-front.page-node-4 .content-wrap {
   background: #29434d; }
-  /* line 654, ../sass/screen.scss */
+  /* line 655, ../sass/screen.scss */
   .not-front.page-node-4 .content-wrap .field-name-body p {
     color: #838383; }
 
-/* line 656, ../sass/screen.scss */
+/* line 657, ../sass/screen.scss */
 .page-node-5 .content-wrap {
   background: #f9ad25; }
 
-/* line 660, ../sass/screen.scss */
+/* line 661, ../sass/screen.scss */
 .page-node-6 .content-wrap {
   background: #1878e1; }
-  /* line 662, ../sass/screen.scss */
+  /* line 663, ../sass/screen.scss */
   .page-node-6 .content-wrap .field-name-body p {
     color: #ccc; }
 
-/* line 664, ../sass/screen.scss */
+/* line 665, ../sass/screen.scss */
 .page-node-7 .content-wrap {
   background: #b1cacd; }
 
-/* line 667, ../sass/screen.scss */
+/* line 668, ../sass/screen.scss */
 .page-node-9 .content-wrap {
   background: #6c6c6c; }
-  /* line 670, ../sass/screen.scss */
+  /* line 671, ../sass/screen.scss */
   .page-node-9 .content-wrap .field-name-body p {
     color: #333; }
-  /* line 671, ../sass/screen.scss */
+  /* line 672, ../sass/screen.scss */
   .page-node-9 .content-wrap .field-name-body ol, .page-node-9 .content-wrap .field-name-body ul {
     color: #333; }
 
-/* line 679, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 .blog-5 {
   background: #f9ad25; }
 
-/* line 680, ../sass/screen.scss */
+/* line 681, ../sass/screen.scss */
 .blog-6 {
   background: #1878e1; }
-  /* line 682, ../sass/screen.scss */
+  /* line 683, ../sass/screen.scss */
   .blog-6 p {
     color: #ccc; }
 
-/* line 684, ../sass/screen.scss */
+/* line 685, ../sass/screen.scss */
 .blog-7 {
   background: #b1cacd; }
 
-/* line 685, ../sass/screen.scss */
+/* line 686, ../sass/screen.scss */
 .blog-9 {
   background: #6c6c6c; }
-  /* line 687, ../sass/screen.scss */
+  /* line 688, ../sass/screen.scss */
   .blog-9 p {
     color: #333; }
 
-/* line 692, ../sass/screen.scss */
+/* line 693, ../sass/screen.scss */
 .footer footer {
   padding: 30px 20px; }
-  /* line 694, ../sass/screen.scss */
+  /* line 695, ../sass/screen.scss */
   .footer footer .block {
     width: 32.12996%;
     float: left;
     margin-right: 1.80505%;
     display: inline;
     color: #fff; }
-  /* line 698, ../sass/screen.scss */
+  /* line 699, ../sass/screen.scss */
   .footer footer .block-menu-block {
     width: 23.64621%;
     float: right;
     margin-right: 0;
     *margin-left: -20px;
     display: inline; }
-    /* line 701, ../sass/screen.scss */
+    /* line 702, ../sass/screen.scss */
     .footer footer .block-menu-block .content .menu {
       float: right; }
-      /* line 703, ../sass/screen.scss */
+      /* line 704, ../sass/screen.scss */
       .footer footer .block-menu-block .content .menu li {
         list-style: none;
         float: left;
         margin: 0;
         padding: 0 0 0 20px; }
-        /* line 708, ../sass/screen.scss */
+        /* line 709, ../sass/screen.scss */
         .footer footer .block-menu-block .content .menu li a {
           color: #fff;
           text-decoration: none; }
 
 /** DRUPAL OVERRIDES **/
-/* line 743, ../sass/screen.scss */
+/* line 744, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 748, ../sass/screen.scss */
+/* line 749, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
