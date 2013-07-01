@@ -343,6 +343,7 @@ h6 {@include adjust-font-size-to(16px);}
 	}
 	.featured-image {
 		@include span-columns(4 alpha, 12);
+		@include at-breakpoint($iphone) {@include span-columns(4, 4);}
 		& img {
 			width: auto;
 			@include at-breakpoint($iphone) { width: 100%; }
