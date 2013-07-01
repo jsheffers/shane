@@ -172,11 +172,12 @@ h6 {@include adjust-font-size-to(16px);}
 			height: 29px;
 			display: block;
 			@include span-columns(3,12);
+			@include at-breakpoint($iphone) { @include span-columns(4,4); }
 		}
 		.mobile-toggle { display: none; }
 		#block-system-main-menu {
 			@include span-columns(3 omega,12);
-			@include at-breakpoint($iphone){ @include span-columns(4 omega,12); }
+			@include at-breakpoint($iphone) { @include span-columns(4,4); }
 			@include at-breakpoint($ipad){ @include span-columns(4 omega,12); }
 			.content ul.menu {
 				float: right;
@@ -344,6 +345,7 @@ h6 {@include adjust-font-size-to(16px);}
 		@include span-columns(4 alpha, 12);
 		& img {
 			width: auto;
+			@include at-breakpoint($iphone) { width: 100%; }
 		}
 	}
 }
