@@ -1,0 +1,748 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/typography";
+@import "formalize";
+@import "susy";
+@import "animate";
+@import "sprites/*.png";
+@include all-sprites-sprites;
+
+
+// SPRITE VARIABLES
+$macWidth: sprites-sprite-width(macbook);
+$macHeight: sprites-sprite-height(macbook);
+$iphoneWidth: sprites-sprite-width(iphone);
+$iphoneHeight: sprites-sprite-height(iphone);
+$ipadWidth: sprites-sprite-width(ipad);
+$ipadHeight: sprites-sprite-height(ipad);
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+// base
+$base: unquote("Montserrat");
+$headings: unquote("Helvetica Neue"), unquote("sans-serif");
+$headings-condensed: unquote("HelveticaNeue-CondensedBold"), unquote("sans-serif");
+$base-font-size: 16px;
+$base-line-height: 24px;
+$font-color: #888;
+$light-gray: #434343;
+$red: #df4e3e;
+
+// Links
+$link-color: $red;
+$link-visited-color: #551a8b;
+$link-hover-color: #06e;
+
+// Lists
+$list-left-margin: 40px;
+@include establish-baseline;
+
+// GRID
+$total-columns  : 12;             // a 12-column grid
+$column-width   : 74px;            // each column is 4em wide
+$gutter-width   : 20px;            // 1em gutters between columns
+$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+$iphone: 320px 4 568px;
+$ipad: 768px 10 1024px;
+
+// MEDIA QUERIES
+
+// $desktop: 12;
+// $ipad: ;
+
+
+// MIXINS
+
+.btnReg {
+	padding: 20px 60px;
+	border: 1px solid #222;
+	background: transparent;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 10px;
+	@include adjust-font-size-to(13px);
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.btnLarge {
+	padding: 25px 100px;
+	border: 1px solid $red;
+	color: $red;
+	background: transparent;
+	border-radius: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	&:hover {
+		background: $red;
+		color: #222;
+	}
+}
+
+
+//-----------------------------------------------
+// The following html5-boilerplate styles should
+// probably be customized for each site
+//-----------------------------------------------
+body, select, input, textarea {
+  color: $font-color;
+  font-family: $base;
+  // Set your base font here, to apply evenly
+  // font-family: Georgia, serif;
+}
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+body { background:#222; }
+
+a {
+	-webkit-transition: All .25s ease-in-out;
+	-moz-transition: All .25s ease-in-out;
+	-o-transition: All .25s ease-in-out;
+	-ms-transition: All .25s ease-in-out;
+	transition: All .25s ease-in-out;
+	color: $link-color;
+}
+p { @include adjust-font-size-to(16px); @include margin-leader(1, 16px); color: #464646  }
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headings;
+}
+
+h1 { @include adjust-font-size-to(38px);}
+h2 { @include adjust-font-size-to(36px);}
+h3 {@include adjust-font-size-to(28px);}
+h4 {@include adjust-font-size-to(23px);}
+h5 {@include adjust-font-size-to(18px);}
+h6 {@include adjust-font-size-to(16px);}
+
+
+.header, .scroll-inner,.project-inner, footer,
+.featured-inner, .node-type-project .content-inner,
+.node-type-blog .content-inner, .blog-container,
+.page-blog .view-blog .blog-header {
+	@include container;
+	// @include susy-grid-background;
+	@include at-breakpoint($iphone){ @include container; }
+	@include at-breakpoint($ipad){ @include container; }
+}
+
+.field-name-body {
+	& ul {
+		margin-left: 30px;
+		list-style-type: disc;
+		@include adjust-font-size-to(14px);
+		@include margin-leader(1, 14px);
+	}
+	& blockquote {
+		& > p {
+			margin: 0;
+			font-weight: 200;
+			font-style: italic;
+		}
+	}
+	& h2 {
+		@include adjust-font-size-to(30px);
+		@include margin-leader(1, 30px);
+	}
+	& h3 {
+		@include adjust-font-size-to(25px);
+		@include margin-leader(1, 25px);
+	}
+	& strong {
+		font-weight: bold;
+	}
+}
+
+
+/** HEADER **/
+
+.header-full {
+	padding-top: 30px;
+	.header  {
+		.logo {
+			width: 220px;
+			height: 29px;
+			display: block;
+			@include span-columns(3,12);
+		}
+		.mobile-toggle { display: none; }
+		#block-system-main-menu {
+			@include span-columns(3 omega,12);
+			@include at-breakpoint($iphone){ @include span-columns(4 omega,12); }
+			@include at-breakpoint($ipad){ @include span-columns(4 omega,12); }
+			.content ul.menu {
+				float: right;
+				li {
+					list-style: none;
+					float: left;
+					& a {
+						color: #f7f7f7;
+						text-decoration: none;
+						@include adjust-font-size-to(18px);
+						padding: 0 5px;
+					}
+				}
+			}
+
+		}
+	}
+}
+
+/** FEATURED **/
+
+.featured {
+	.featured-inner {
+		min-height: 500px;
+		position: relative;
+		.site-title {
+			font-family: $base;
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 260px;
+			@include adjust-font-size-to(46px);
+			-webkit-animation-duration: 1s;
+			-webkit-animation-delay: 1.3s;
+			-webkit-animation-iteration-count: 1;
+			& em { color: $light-gray;}
+		}
+		.sprites-ipad {
+			width: $ipadWidth;
+			height: $ipadHeight;
+			position: absolute;
+			top: 74px;
+			left: 699px;
+			opacity: 0;
+			-webkit-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
+		}
+		.sprites-iphone {
+			width: $iphoneWidth;
+			height: $iphoneHeight;
+			position: absolute;
+			top: 125px;
+			left: 258px;
+			opacity: 0;
+			-webkit-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
+		}
+		.sprites-macbook {
+			width: $macWidth;
+			height: $macHeight;
+			position: absolute;
+			top: 80px;
+			left: 358px;
+			opacity: 0;
+			-webkit-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
+		}
+		.btn-large {
+			position: absolute;
+			left: 50%;
+			margin-left: -135px;
+			top: 350px;
+			-webkit-animation-duration: .5s;
+			-webkit-animation-delay: 1.2s;
+			-webkit-animation-iteration-count: 1;
+			@extend .btnLarge;
+		}
+	}
+}
+.browserImage {
+	padding-top: 42px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background:#333 url(../img/browser_buttons.png) 15px 17px no-repeat;
+	display: block;
+}
+.views-row-even.project {
+	.featured-image {
+		float: right;
+		margin-right: 0;
+	}
+}
+
+// WEB PROJECTS
+.project {
+	.featured-image {
+		float: left;
+		margin: 0;
+		max-width:562px;
+		@include at-breakpoint($iphone) {
+			margin-left: 0;
+			@include span-columns(4, 4);
+		}
+		@include at-breakpoint($ipad) {
+			@include span-columns(6, 10);
+		}
+		& img {
+			vertical-align: bottom;
+			width: 100%;
+			height: auto;
+		}
+		@include at-breakpoint($iphone) {
+			& img {
+				vertical-align: bottom;
+				max-width: 100%;
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+	.project-content {
+		@include span-columns(4.5, 12);
+		@include push(.5);
+		@include at-breakpoint($iphone) { @include span-columns(4, 4); }
+		@include at-breakpoint($ipad){
+			@include span-columns(3.5, 12);
+			@include push(.5);
+		}
+	}
+	h2 {
+		@include at-breakpoint($iphone) { padding-top: 30px;}
+		@include at-breakpoint($ipad) { padding-top: 0; }
+		padding-top: 60px;
+		& a {
+			text-decoration: none;
+			color: #fff;
+			font-family: $headings-condensed;
+			@include adjust-font-size-to(20px);
+			line-height: 1.1em;
+			// @include span-columns(7,12);
+		}
+	}
+	p {
+		@include adjust-font-size-to(18px);
+		margin-top: 20px;
+		line-height: 1.6em;
+		// @include span-columns(7,12);
+	}
+	.btn-reg {
+		@extend .btnReg;
+		color: #222;
+		clear: left;
+	}
+}
+
+// IOS PROJECTS
+.project.ios {
+	padding: 30px 0 0 0;
+	@include at-breakpoint($iphone) { padding-bottom: 50px; }
+	.project-content {
+		@include span-columns(7, 12);
+		@include push(0);
+		@include at-breakpoint($iphone) {@include span-columns(4, 4);}
+		h2 { padding-top: 40px; }
+	}
+	.featured-image {
+		@include span-columns(4 alpha, 12);
+		& img {
+			width: auto;
+		}
+	}
+}
+
+.project.web {
+	padding: 50px 0;
+	.featured-image {
+		@extend .browserImage;
+		& a {display: block;}
+	}
+}
+
+
+// PROJECT VARIABLES
+
+	$fm_bg: #e64a3e;
+	$nsf_bg: #3856a9;
+	$nsf_text: #b3b3b3;
+	$itc_bg: #29434d;
+	$itc_text: #838383;
+
+// PROJECT BACKGROUNDS
+
+.project-1 { background: $fm_bg; }
+.project-2 { background: #92b170; }
+.project-3 {
+	background: $nsf_bg;
+	& p { color: $nsf_text; }
+}
+.project-4 {
+	background: $itc_bg;
+	& p { color: $itc_text; }
+}
+
+// SCROLLED DOWN
+
+.scrolled {
+	padding: 50px 0;
+	background: #000;
+	.scroll-inner {
+		h2 {
+			color: #fff;
+			font-family: $headings-condensed;
+			@include adjust-font-size-to(40px);
+			line-height: 1.1em;
+		}
+		h3 {
+			color: $fm_bg;
+			font-family: $base;
+			@include adjust-font-size-to(90px);
+			& em { width: 205px; display: inline-block; }
+		}
+		p {
+			color: #bebebe;
+			@include span-columns(5);
+			margin-bottom: 20px;
+			@include adjust-font-size-to(18px);
+			@include at-breakpoint($iphone){
+				@include span-columns(4, 4);
+			}
+		}
+		.btnLarge {
+			clear: both;
+			display: block;
+			width: 271px;
+		}
+	}
+}
+
+// SECONDARY PAGE STYLING
+
+.node-type-project {
+	.content-wrap {
+		margin-top: 30px;
+		padding: 30px 0;
+		.web-full { @extend .browserImage; }
+		.content-inner{
+			.main { position: relative;}
+			position: relative;
+			.flippy {
+				position: absolute;
+				top: 10px;
+				right: 0;
+				padding: 0;
+				& li {
+					padding: 0;
+					margin-left: 15px;
+					width: 26px;
+					height: 32px;
+					display: block;
+					float: left;
+				}
+				.previous a {
+					@extend .sprites-previous;
+					width: 26px;
+					height: 32px;
+					display: block;
+					text-indent: -9999px;
+					float: left;
+				}
+				.next a {
+					@extend .sprites-next;
+					width: 26px;
+					height: 32px;
+					display: block;
+					text-indent: -9999px;
+					float: left;
+				}
+			}
+			.field-name-field-link {
+				position: absolute;
+				top: 0;
+				right: 100px;
+				& a {
+					border: 1px solid #222;
+					background: transparent;
+					text-decoration: none;
+					text-transform: uppercase;
+					border-radius: 10px;
+					@include adjust-font-size-to(13px);
+					display: block;
+					padding: 13px 50px;
+					color: #222;
+				}
+			}
+			#page-title {
+				font-family: $headings-condensed;
+				color: #fff;
+				margin-bottom: 30px;
+			}
+			.section {
+				padding: 70px 0;
+				overflow: hidden;
+				border-bottom: 1px solid rgba(0,0,0,0.2);
+				&.first { padding: 0 0 100px 0; }
+				&.last{ border-bottom: 0; }
+				.section-image {
+					@include span-columns(7, 12);
+					&.right { @include span-columns(7 omega, 12); }
+					&.ipad {
+						@include span-columns(8, 12);
+						& img { float: left; }
+					}
+				}
+				.section-content {
+					@include span-columns(4, 12);
+					@include push(.5);
+					h2 {
+						color: #fff;
+						line-height: 35px;
+					}
+					&.ipad {@include span-columns(3, 12);}
+
+				}
+				&.iphone2 {
+					.section-image {
+						@include span-columns(8, 12);
+						& img {
+							float: left;
+							&:first-child {
+								margin-right: 45px;
+							}
+						}
+					}
+					.section-content {
+						@include span-columns(3, 12);
+					}
+				}
+			}
+		}
+	}
+}
+
+.page-blog {
+	.content-wrap { padding-top: 30px; }
+	.blog-teaser {
+		padding: 50px 0;
+		h2 {
+			margin-bottom: 20px;
+			@include adjust-font-size-to(50px);
+			line-height: 1.2em;
+			a {
+				color: #fff;
+				font-family: $headings-condensed;
+				text-decoration: none;
+				text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+			}
+		}
+		.btn-reg {
+			@extend .btnReg;
+			color: #222;
+			clear: left;
+		}
+	}
+	.view-header {
+		padding: 30px 0;
+		background:#555;
+		p {
+			color: #fff;
+			margin-top: 0;
+			@include adjust-font-size-to(17px);
+		}
+		a { color: #fff; font-weight: bold; }
+		strong { font-weight: bold; }
+	}
+	#page-title { display: none; }
+
+}
+.node-type-blog {
+	.content-wrap {
+		margin-top: 30px;
+		padding: 30px 0;
+		.content-inner {
+			h1 {
+				font-family: $headings-condensed;
+				color: #fff;
+				text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+				@include adjust-font-size-to(50px);
+				line-height: 1.2em;
+				margin-bottom: 30px;
+			}
+			.field-name-field-featured-blog-image {
+				margin-top: 10px;
+			}
+			.field-name-body {
+				h2 {
+					color: #fff;
+					font-family: $headings-condensed;
+					color: #fff;
+					text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+					@include adjust-font-size-to(35px);
+					clear: both;
+				}
+				h3 {
+					color: #fff;
+					text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+					@include adjust-font-size-to(25px);
+					line-height: 1.2em;
+					margin-bottom: 10px;
+				}
+				.codeblock {
+					background: #333;
+					color: #ddd;
+					padding: 30px;
+					margin: 20px 0;
+					overflow: scroll;
+					border-radius: 8px;
+				}
+			}
+			.work-more a {
+				color: #222;
+				clear: left;
+			}
+			.row {
+				&.even {
+					@include span-columns(6 alpha, 12);
+					@include at-breakpoint($iphone){ @include span-columns(4, 4); }
+					@include at-breakpoint($ipad){ @include span-columns(4, 4); }
+				}
+				&.odd{
+					@include span-columns(6 omega, 12);
+					@include at-breakpoint($iphone){ @include span-columns(4, 4); }
+					@include at-breakpoint($ipad){ @include span-columns(4, 4); }
+				}
+				p { margin-top: 0; }
+			}
+			.demo {
+				margin: 0;
+				padding: 0;
+				& li {
+					margin: 0;
+					padding: 0;
+					list-style: none;
+					float: left;
+					& a {
+						@extend .btnReg;
+						margin-right: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// PAGE COLORS
+
+	// FANTASY MATCHUP
+	.not-front.page-node-1 .content-wrap {
+		background: $fm_bg;
+	}
+	.not-front.page-node-2 .content-wrap {
+		background: #92b170;
+	}
+	.not-front.page-node-3 .content-wrap {
+		background: $nsf_bg;
+		& .field-name-body p { color: $nsf_text; }
+	}
+	.not-front.page-node-4 .content-wrap {
+		background: $itc_bg;
+		& .field-name-body p { color: $itc_text; }
+	}
+	.page-node-5 .content-wrap {
+		background: #f9ad25;
+		& .field-name-body p {  }
+	}
+	.page-node-6 .content-wrap {
+		background: #1878e1;
+		& .field-name-body p { color: #ccc; }
+	}
+	.page-node-7 .content-wrap {
+		background:#b1cacd;
+	}
+	.page-node-9 .content-wrap {
+		background: #6c6c6c;
+		& .field-name-body {
+			p { color: #333; }
+			ol, ul {
+				color: #333;
+			}
+		}
+	}
+
+
+	// BLOG TEASER PAGE
+	.blog-5 { background: #f9ad25; }
+	.blog-6 {
+		background:#1878e1;
+		& p { color: #ccc; }
+	}
+	.blog-7 { background: #b1cacd; }
+	.blog-9 {
+		background:#6c6c6c;
+		& p { color: #333; }
+	}
+// FOOTER
+
+.footer {
+	footer {
+		padding: 30px 20px;
+		.block {
+			@include span-columns(4, 12);
+			color: #fff;
+		}
+		.block-menu-block {
+			@include span-columns(3 omega, 12);
+			.content {
+				.menu {
+					float: right;
+					& li {
+						list-style: none;
+						float: left;
+						margin: 0;
+						padding: 0 0 0 20px;
+						& a {
+							color: #fff;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/** DRUPAL OVERRIDES **/
+
+// .tabs ul.primary {
+// 	float: right;
+// 	position: absolute;
+// 	top: 24px;
+// 	right: 0;
+// 	border-bottom: 0;
+// 	& li {
+// 		padding: 0;
+// 		margin: 0 0 0 10px;
+// 		& a {
+// 			padding: 0;
+// 			margin: 0;
+// 			border: 0;
+// 			background: #ece5d9 url(../img/pattern.png);
+// 			padding: 5px 10px;
+// 			color: #000;
+// 			border-radius: 10px;
+// 		}
+// 	}
+// }
+
+.messages {
+	@include margin-leader(1, 16px);
+}
+
+.maintenance-page {
+	#page {
+		width: 430px;
+		margin: 100px auto;
+		color: #fff;
+		h1 {  }
+	}
+}
+
+

@@ -1,0 +1,29 @@
+; $Id: shanejeffers.info,v 1.5 2007/07/01 23:27:32 goba Exp $
+
+name = Shane Jeffers
+description = Responsive portfolio theme built by me.
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/screen.css
+
+regions[nav] = Nav
+regions[rotator] = Rotator
+regions[htabs] = Tabs
+regions[home_content] = Home Content
+regions[content] = Content
+regions[sidebar] = Sidebar
+
+regions[footer_menu] = Footer Menu
+regions[footer] = Footer
+
+scripts[] = js/formalize.js
+scripts[] = js/script.js
+scripts[] = js/plugins-ck.js
+
+
+; Information added by drupal.org packaging script on 2013-04-03
+version = "7.22"
+project = "drupal"
+datestamp = "1365027012"

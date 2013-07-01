@@ -1,0 +1,1 @@
+(function(e){e(function(){e(window).on("scroll",function(){e(".scrolled em").text(e(window).scrollTop())});e(".row:even").addClass("even");e(".row:odd").addClass("odd")})})(jQuery);
