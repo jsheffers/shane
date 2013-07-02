@@ -18,6 +18,7 @@
 <!-- CONTENT -->
     <div id="work"></div>
     <?php print render($page['home_content']); ?>
+    <div style="display: none;"><?php print render($page['content']); ?></div>
 <section class="scrolled">
   <div class="scroll-inner">
     <h2>You've already scrolled down</h2>
