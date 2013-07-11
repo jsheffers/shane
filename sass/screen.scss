@@ -442,6 +442,7 @@ h6 {@include adjust-font-size-to(16px);}
 					height: 32px;
 					display: block;
 					float: left;
+					text-indent: -9999px;
 				}
 				.previous a {
 					@extend .sprites-previous;
