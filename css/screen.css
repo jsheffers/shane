@@ -5210,8 +5210,8 @@ h6 {
     height: 53px;
     display: block;
     position: absolute;
-    top: 18px;
-    left: 0; }
+    top: 5px;
+    left: 18px; }
 
 /* line 753, ../sass/screen.scss */
 .webform-client-form label {
