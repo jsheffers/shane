@@ -735,7 +735,7 @@ h6 {@include adjust-font-size-to(16px);}
 		h2 { display: none; }
 	}
 	#block-block-3 {
-		@include span-columns(6 alpha, 12);
+		@include span-columns(5 alpha, 12);
 	}
 }
 
