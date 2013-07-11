@@ -1,3 +1,9 @@
+<section class="contact-full">
+  <div class="contact">
+    <a href="#" class="sprites-close"></a>
+    <?php print render($page['contact_form']); ?>
+  </div>
+</section>
 <!-- HEADER -->
 <section class="header-full">
   <header class="header">
