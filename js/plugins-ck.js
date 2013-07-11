@@ -1,1 +1,1 @@
-(function(e){e(function(){e(window).on("scroll",function(){e(".scrolled em").text(e(window).scrollTop())});e(".row:even").addClass("even");e(".row:odd").addClass("odd");e(".featured-inner .btn-large").click(function(){e(".contact-full").slideToggle()})})})(jQuery);
+(function(e){e(function(){e(window).on("scroll",function(){e(".scrolled em").text(e(window).scrollTop())});e(".row:even").addClass("even");e(".row:odd").addClass("odd");e(".featured-inner .btn-large, .sprites-close").click(function(){e(".contact-full").slideToggle()})})})(jQuery);
