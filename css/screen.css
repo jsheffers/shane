@@ -4252,7 +4252,7 @@ body {
   animation-duration: 0.75s; }
 
 /* line 74, sprites/*.png */
-.sprites-sprite, .sprites-ipad, .sprites-iphone, .sprites-macbook, .sprites-next, .node-type-project .content-wrap .content-inner .flippy .next a, .sprites-previous, .node-type-project .content-wrap .content-inner .flippy .previous a {
+.sprites-sprite, .sprites-ipad, .sprites-iphone, .sprites-macbook, .sprites-next, .node-type-project .content-wrap .content-inner .flippy .next a, .sprites-previous, .node-type-project .content-wrap .content-inner .flippy .prev a {
   background: url('../img/sprites-sc9fca935d8.png') no-repeat; }
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
@@ -4272,7 +4272,7 @@ body {
   background-position: 0 -469px; }
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.sprites-previous, .node-type-project .content-wrap .content-inner .flippy .previous a {
+.sprites-previous, .node-type-project .content-wrap .content-inner .flippy .prev a {
   background-position: 0 -501px; }
 
 /* line 24, ../sass/screen.scss */
@@ -4818,7 +4818,7 @@ h6 {
         float: left;
         text-indent: -9999px; }
       /* line 447, ../sass/screen.scss */
-      .node-type-project .content-wrap .content-inner .flippy .previous a {
+      .node-type-project .content-wrap .content-inner .flippy .prev a {
         width: 26px;
         height: 32px;
         display: block;
