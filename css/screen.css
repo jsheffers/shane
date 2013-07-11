@@ -4251,9 +4251,13 @@ body {
   -o-animation-duration: 0.75s;
   animation-duration: 0.75s; }
 
-/* line 74, sprites/*.png */
-.sprites-sprite, .sprites-ipad, .sprites-iphone, .sprites-macbook, .sprites-next, .node-type-project .content-wrap .content-inner .flippy .next a, .sprites-previous, .node-type-project .content-wrap .content-inner .flippy .prev a {
-  background: url('../img/sprites-sc9fca935d8.png') no-repeat; }
+/* line 82, sprites/*.png */
+.sprites-sprite, .sprites-close, .sprites-ipad, .sprites-iphone, .sprites-macbook, .sprites-next, .node-type-project .content-wrap .content-inner .flippy .next a, .sprites-previous, .node-type-project .content-wrap .content-inner .flippy .prev a {
+  background: url('../img/sprites-s9f7165d3aa.png') no-repeat; }
+
+/* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprites-close {
+  background-position: 0 -345px; }
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprites-ipad {
@@ -4261,7 +4265,7 @@ body {
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprites-iphone {
-  background-position: 0 -345px; }
+  background-position: 0 -398px; }
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprites-macbook {
@@ -4269,11 +4273,11 @@ body {
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprites-next, .node-type-project .content-wrap .content-inner .flippy .next a {
-  background-position: 0 -469px; }
+  background-position: 0 -522px; }
 
 /* line 60, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .sprites-previous, .node-type-project .content-wrap .content-inner .flippy .prev a {
-  background-position: 0 -501px; }
+  background-position: 0 -554px; }
 
 /* line 24, ../sass/screen.scss */
 * {
@@ -5197,11 +5201,16 @@ h6 {
     margin-right: 1.80505%;
     display: inline;
     margin-top: 60px; }
+  /* line 741, ../sass/screen.scss */
+  .contact-full .sprites-close {
+    width: 53px;
+    height: 53px;
+    display: block; }
 
-/* line 744, ../sass/screen.scss */
+/* line 749, ../sass/screen.scss */
 .webform-client-form label {
   display: none; }
-/* line 745, ../sass/screen.scss */
+/* line 750, ../sass/screen.scss */
 .webform-client-form input[type=text], .webform-client-form input[type=email] {
   background: #333;
   border-radius: 5px;
@@ -5210,7 +5219,7 @@ h6 {
   border: none;
   font-family: Montserrat;
   color: #ccc; }
-/* line 754, ../sass/screen.scss */
+/* line 759, ../sass/screen.scss */
 .webform-client-form textarea {
   background: #333;
   border-radius: 5px;
@@ -5218,23 +5227,23 @@ h6 {
   border: none;
   font-family: Montserrat;
   color: #ccc; }
-/* line 762, ../sass/screen.scss */
+/* line 767, ../sass/screen.scss */
 .webform-client-form input[type=submit] {
   text-shadow: none;
   font-family: Montserrat; }
 
 /** DRUPAL OVERRIDES **/
-/* line 793, ../sass/screen.scss */
+/* line 798, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 798, ../sass/screen.scss */
+/* line 803, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 807, ../sass/screen.scss */
+/* line 812, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;

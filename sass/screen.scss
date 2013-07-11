@@ -738,6 +738,11 @@ h6 {@include adjust-font-size-to(16px);}
 		@include span-columns(5 alpha, 12);
 		margin-top: 60px;
 	}
+	.sprites-close {
+		width: 53px;
+		height: 53px;
+		display: block;
+	}
 }
 
 .webform-client-form {
