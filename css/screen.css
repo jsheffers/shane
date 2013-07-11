@@ -4381,7 +4381,7 @@ h6 {
 .header, .scroll-inner, .project-inner, footer,
 .featured-inner, .node-type-project .content-inner,
 .node-type-blog .content-inner, .blog-container,
-.page-blog .view-blog .blog-header {
+.page-blog .view-blog .blog-header, .region-contact-form {
   *zoom: 1;
   max-width: 1108px;
   _width: 1108px;
@@ -4393,7 +4393,7 @@ h6 {
   .header:after, .scroll-inner:after, .project-inner:after, footer:after,
   .featured-inner:after, .node-type-project .content-inner:after,
   .node-type-blog .content-inner:after, .blog-container:after,
-  .page-blog .view-blog .blog-header:after {
+  .page-blog .view-blog .blog-header:after, .region-contact-form:after {
     content: "";
     display: table;
     clear: both; }
@@ -4402,7 +4402,7 @@ h6 {
     .header, .scroll-inner, .project-inner, footer,
     .featured-inner, .node-type-project .content-inner,
     .node-type-blog .content-inner, .blog-container,
-    .page-blog .view-blog .blog-header {
+    .page-blog .view-blog .blog-header, .region-contact-form {
       max-width: 356px;
       padding-left: 20px;
       padding-right: 20px;
@@ -4412,7 +4412,7 @@ h6 {
       .header:after, .scroll-inner:after, .project-inner:after, footer:after,
       .featured-inner:after, .node-type-project .content-inner:after,
       .node-type-blog .content-inner:after, .blog-container:after,
-      .page-blog .view-blog .blog-header:after {
+      .page-blog .view-blog .blog-header:after, .region-contact-form:after {
         content: "";
         display: table;
         clear: both; } }
@@ -4421,7 +4421,7 @@ h6 {
     .header, .scroll-inner, .project-inner, footer,
     .featured-inner, .node-type-project .content-inner,
     .node-type-blog .content-inner, .blog-container,
-    .page-blog .view-blog .blog-header {
+    .page-blog .view-blog .blog-header, .region-contact-form {
       max-width: 920px;
       padding-left: 20px;
       padding-right: 20px;
@@ -4431,7 +4431,7 @@ h6 {
       .header:after, .scroll-inner:after, .project-inner:after, footer:after,
       .featured-inner:after, .node-type-project .content-inner:after,
       .node-type-blog .content-inner:after, .blog-container:after,
-      .page-blog .view-blog .blog-header:after {
+      .page-blog .view-blog .blog-header:after, .region-contact-form:after {
         content: "";
         display: table;
         clear: both; } }
@@ -5170,22 +5170,26 @@ h6 {
           color: #fff;
           text-decoration: none; }
 
-/* line 725, ../sass/screen.scss */
+/* line 724, ../sass/screen.scss */
+.contact-full {
+  display: none; }
+
+/* line 729, ../sass/screen.scss */
 .webform-client-form label {
   display: none; }
 
 /** DRUPAL OVERRIDES **/
-/* line 752, ../sass/screen.scss */
+/* line 756, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 757, ../sass/screen.scss */
+/* line 761, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 766, ../sass/screen.scss */
+/* line 770, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;

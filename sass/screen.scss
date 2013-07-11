@@ -127,7 +127,7 @@ h6 {@include adjust-font-size-to(16px);}
 .header, .scroll-inner,.project-inner, footer,
 .featured-inner, .node-type-project .content-inner,
 .node-type-blog .content-inner, .blog-container,
-.page-blog .view-blog .blog-header {
+.page-blog .view-blog .blog-header, .region-contact-form {
 	@include container;
 	// @include susy-grid-background;
 	@include at-breakpoint($iphone){ @include container; }
@@ -719,7 +719,11 @@ h6 {@include adjust-font-size-to(16px);}
 }
 
 
-// WEBFORMS
+// CONTACT FORM
+
+.contact-full {
+	display: none;
+}
 
 .webform-client-form {
 	label { display: none; }
