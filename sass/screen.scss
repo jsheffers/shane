@@ -127,7 +127,7 @@ h6 {@include adjust-font-size-to(16px);}
 .header, .scroll-inner,.project-inner, footer,
 .featured-inner, .node-type-project .content-inner,
 .node-type-blog .content-inner, .blog-container,
-.page-blog .view-blog .blog-header, .region-contact-form {
+.page-blog .view-blog .blog-header, .contact {
 	@include container;
 	// @include susy-grid-background;
 	@include at-breakpoint($iphone){ @include container; }
@@ -726,6 +726,7 @@ h6 {@include adjust-font-size-to(16px);}
 	padding: 30px 0;
 	background: #e64a3e;
 	overflow: hidden;
+	.contact { position: relative; }
 	h2 {
 		color: #fff;
 		font-family: $headings-condensed;
@@ -742,6 +743,9 @@ h6 {@include adjust-font-size-to(16px);}
 		width: 53px;
 		height: 53px;
 		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 }
 

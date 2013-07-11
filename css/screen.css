@@ -4385,7 +4385,7 @@ h6 {
 .header, .scroll-inner, .project-inner, footer,
 .featured-inner, .node-type-project .content-inner,
 .node-type-blog .content-inner, .blog-container,
-.page-blog .view-blog .blog-header, .region-contact-form {
+.page-blog .view-blog .blog-header, .contact {
   *zoom: 1;
   max-width: 1108px;
   _width: 1108px;
@@ -4397,7 +4397,7 @@ h6 {
   .header:after, .scroll-inner:after, .project-inner:after, footer:after,
   .featured-inner:after, .node-type-project .content-inner:after,
   .node-type-blog .content-inner:after, .blog-container:after,
-  .page-blog .view-blog .blog-header:after, .region-contact-form:after {
+  .page-blog .view-blog .blog-header:after, .contact:after {
     content: "";
     display: table;
     clear: both; }
@@ -4406,7 +4406,7 @@ h6 {
     .header, .scroll-inner, .project-inner, footer,
     .featured-inner, .node-type-project .content-inner,
     .node-type-blog .content-inner, .blog-container,
-    .page-blog .view-blog .blog-header, .region-contact-form {
+    .page-blog .view-blog .blog-header, .contact {
       max-width: 356px;
       padding-left: 20px;
       padding-right: 20px;
@@ -4416,7 +4416,7 @@ h6 {
       .header:after, .scroll-inner:after, .project-inner:after, footer:after,
       .featured-inner:after, .node-type-project .content-inner:after,
       .node-type-blog .content-inner:after, .blog-container:after,
-      .page-blog .view-blog .blog-header:after, .region-contact-form:after {
+      .page-blog .view-blog .blog-header:after, .contact:after {
         content: "";
         display: table;
         clear: both; } }
@@ -4425,7 +4425,7 @@ h6 {
     .header, .scroll-inner, .project-inner, footer,
     .featured-inner, .node-type-project .content-inner,
     .node-type-blog .content-inner, .blog-container,
-    .page-blog .view-blog .blog-header, .region-contact-form {
+    .page-blog .view-blog .blog-header, .contact {
       max-width: 920px;
       padding-left: 20px;
       padding-right: 20px;
@@ -4435,7 +4435,7 @@ h6 {
       .header:after, .scroll-inner:after, .project-inner:after, footer:after,
       .featured-inner:after, .node-type-project .content-inner:after,
       .node-type-blog .content-inner:after, .blog-container:after,
-      .page-blog .view-blog .blog-header:after, .region-contact-form:after {
+      .page-blog .view-blog .blog-header:after, .contact:after {
         content: "";
         display: table;
         clear: both; } }
@@ -5181,36 +5181,42 @@ h6 {
   background: #e64a3e;
   overflow: hidden; }
   /* line 729, ../sass/screen.scss */
+  .contact-full .contact {
+    position: relative; }
+  /* line 730, ../sass/screen.scss */
   .contact-full h2 {
     color: #fff;
     font-family: HelveticaNeue-CondensedBold, sans-serif; }
-  /* line 733, ../sass/screen.scss */
+  /* line 734, ../sass/screen.scss */
   .contact-full #block-webform-client-block-11 {
     width: 49.09747%;
     float: right;
     margin-right: 0;
     *margin-left: -20px;
     display: inline; }
-    /* line 735, ../sass/screen.scss */
+    /* line 736, ../sass/screen.scss */
     .contact-full #block-webform-client-block-11 h2 {
       display: none; }
-  /* line 737, ../sass/screen.scss */
+  /* line 738, ../sass/screen.scss */
   .contact-full #block-block-3 {
     width: 40.61372%;
     float: left;
     margin-right: 1.80505%;
     display: inline;
     margin-top: 60px; }
-  /* line 741, ../sass/screen.scss */
+  /* line 742, ../sass/screen.scss */
   .contact-full .sprites-close {
     width: 53px;
     height: 53px;
-    display: block; }
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
 
-/* line 749, ../sass/screen.scss */
+/* line 753, ../sass/screen.scss */
 .webform-client-form label {
   display: none; }
-/* line 750, ../sass/screen.scss */
+/* line 754, ../sass/screen.scss */
 .webform-client-form input[type=text], .webform-client-form input[type=email] {
   background: #333;
   border-radius: 5px;
@@ -5219,7 +5225,7 @@ h6 {
   border: none;
   font-family: Montserrat;
   color: #ccc; }
-/* line 759, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 .webform-client-form textarea {
   background: #333;
   border-radius: 5px;
@@ -5227,23 +5233,23 @@ h6 {
   border: none;
   font-family: Montserrat;
   color: #ccc; }
-/* line 767, ../sass/screen.scss */
+/* line 771, ../sass/screen.scss */
 .webform-client-form input[type=submit] {
   text-shadow: none;
   font-family: Montserrat; }
 
 /** DRUPAL OVERRIDES **/
-/* line 798, ../sass/screen.scss */
+/* line 802, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 803, ../sass/screen.scss */
+/* line 807, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 812, ../sass/screen.scss */
+/* line 816, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;
