@@ -11,7 +11,7 @@
 			$('.contact-full').slideToggle();
 		});
 
-		$('.block-menu ul.menu .last a').click(function(){
+		$('.block-menu ul.menu .last a, .block-menu-block ul.menu .last a').click(function(){
 			$('.contact-full').slideToggle();
 			return false;
 		});
