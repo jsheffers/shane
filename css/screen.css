@@ -5172,24 +5172,33 @@ h6 {
 
 /* line 724, ../sass/screen.scss */
 .contact-full {
-  display: none; }
+  display: none;
+  padding: 30px 0;
+  background: #e64a3e; }
 
-/* line 729, ../sass/screen.scss */
+/* line 731, ../sass/screen.scss */
 .webform-client-form label {
   display: none; }
+/* line 732, ../sass/screen.scss */
+.webform-client-form input[type=text], .webform-client-form input[type=email] {
+  background: #333;
+  border-radius: 5px;
+  height: 44px;
+  padding: 0 15px;
+  border: none; }
 
 /** DRUPAL OVERRIDES **/
-/* line 756, ../sass/screen.scss */
+/* line 765, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 761, ../sass/screen.scss */
+/* line 770, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 770, ../sass/screen.scss */
+/* line 779, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;
