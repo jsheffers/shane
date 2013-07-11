@@ -30,7 +30,7 @@
     <h2>You've already scrolled down</h2>
     <h3><em>0</em> Pixels</h3>
     <p>You've seen my work, what are you waiting for?  Let's work together to make your idea a reality.</p>
-    <a href="mailto:shanejeffers@mac.com" class="btnLarge">Hire Me</a>
+    <a href="#" class="btnLarge">Hire Me</a>
   </div>
 </section>
 <!-- FOOTER MENU -->
