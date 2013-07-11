@@ -5170,18 +5170,22 @@ h6 {
           color: #fff;
           text-decoration: none; }
 
+/* line 725, ../sass/screen.scss */
+.webform-client-form label {
+  display: none; }
+
 /** DRUPAL OVERRIDES **/
-/* line 745, ../sass/screen.scss */
+/* line 752, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 750, ../sass/screen.scss */
+/* line 757, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 759, ../sass/screen.scss */
+/* line 766, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;

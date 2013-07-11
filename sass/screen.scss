@@ -719,6 +719,13 @@ h6 {@include adjust-font-size-to(16px);}
 }
 
 
+// WEBFORMS
+
+.webform-client-form {
+	label { display: none; }
+}
+
+
 /** DRUPAL OVERRIDES **/
 
 // .tabs ul.primary {
