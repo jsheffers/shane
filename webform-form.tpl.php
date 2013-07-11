@@ -4,3 +4,5 @@ foreach ($form["submitted"] as $key => $value) {
         $form["submitted"][$key]['#attributes']["placeholder"] = t($value["#title"]);
     } 
 }
+print drupal_render($form['submitted']);
+print drupal_render_children($form);
