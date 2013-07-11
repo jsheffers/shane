@@ -5174,31 +5174,41 @@ h6 {
 .contact-full {
   display: none;
   padding: 30px 0;
-  background: #e64a3e; }
+  background: #e64a3e;
+  overflow: hidden; }
+  /* line 729, ../sass/screen.scss */
+  .contact-full h2 {
+    color: #fff;
+    font-family: HelveticaNeue-CondensedBold, sans-serif; }
 
-/* line 731, ../sass/screen.scss */
+/* line 736, ../sass/screen.scss */
 .webform-client-form label {
   display: none; }
-/* line 732, ../sass/screen.scss */
+/* line 737, ../sass/screen.scss */
 .webform-client-form input[type=text], .webform-client-form input[type=email] {
   background: #333;
   border-radius: 5px;
   height: 44px;
   padding: 0 15px;
   border: none; }
+/* line 744, ../sass/screen.scss */
+.webform-client-form textarea {
+  background: #333;
+  border-radius: 5px;
+  padding: 15px; }
 
 /** DRUPAL OVERRIDES **/
-/* line 765, ../sass/screen.scss */
+/* line 775, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 770, ../sass/screen.scss */
+/* line 780, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 779, ../sass/screen.scss */
+/* line 789, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;
