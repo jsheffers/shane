@@ -5203,14 +5203,14 @@ h6 {
     float: left;
     margin-right: 1.80505%;
     display: inline;
-    margin-top: 60px; }
+    margin-top: 80px; }
   /* line 742, ../sass/screen.scss */
   .contact-full .sprites-close {
     width: 53px;
     height: 53px;
     display: block;
     position: absolute;
-    top: 0;
+    top: 18px;
     left: 0; }
 
 /* line 753, ../sass/screen.scss */
