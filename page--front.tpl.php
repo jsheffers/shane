@@ -1,3 +1,6 @@
+<section class="contact-full">
+  <?php print render($page['contact_form']); ?>
+</section>
 <!-- HEADER -->
 <section class="header-full">
   <header class="header">

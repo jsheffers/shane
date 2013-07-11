@@ -8,6 +8,7 @@ engine = phptemplate
 
 stylesheets[all][] = css/screen.css
 
+regions[contact_form] = Contact Form
 regions[nav] = Nav
 regions[rotator] = Rotator
 regions[htabs] = Tabs
