@@ -730,6 +730,9 @@ h6 {@include adjust-font-size-to(16px);}
 		color: #fff;
 		font-family: $headings-condensed;
 	}
+	#block-webform-client-block-11 {
+		@include span-columns(6 omega, 12);
+	}
 }
 
 .webform-client-form {
