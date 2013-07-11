@@ -732,6 +732,7 @@ h6 {@include adjust-font-size-to(16px);}
 	}
 	#block-webform-client-block-11 {
 		@include span-columns(6 omega, 12);
+		h2 { display: none; }
 	}
 	#block-block-3 {
 		@include span-columns(6 alpha, 12);
