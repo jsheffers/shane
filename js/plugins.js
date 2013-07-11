@@ -10,5 +10,10 @@
 		$('.featured-inner .btn-large, .sprites-close, .scroll-inner .btnLarge').click(function(){
 			$('.contact-full').slideToggle();
 		});
+
+		$('.block-menu ul.menu .last a').click(function(){
+			$('.contact-full').slideToggle();
+			return false;
+		});
 	});
 })(jQuery);
