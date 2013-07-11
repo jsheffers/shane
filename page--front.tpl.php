@@ -1,4 +1,5 @@
 <section class="contact-full">
+  <a href="#" class="sprites-contact_close"></a>
   <?php print render($page['contact_form']); ?>
 </section>
 <!-- HEADER -->

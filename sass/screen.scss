@@ -736,6 +736,7 @@ h6 {@include adjust-font-size-to(16px);}
 	}
 	#block-block-3 {
 		@include span-columns(5 alpha, 12);
+		margin-top: 60px;
 	}
 }
 
