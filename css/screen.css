@@ -4291,7 +4291,7 @@ html {
   line-height: 1.5em; }
 
 /* line 61, ../sass/screen.scss */
-.btnReg, .project .btn-reg, .page-blog .blog-teaser .btn-reg, .node-type-blog .content-wrap .content-inner .demo li a {
+.btnReg, .project .btn-reg, .page-blog .blog-teaser .btn-reg, .node-type-blog .content-wrap .content-inner .demo li a, .webform-client-form input[type=submit] {
   padding: 20px 60px;
   border: 1px solid #222;
   background: transparent;
@@ -5215,17 +5215,17 @@ h6 {
   border: none; }
 
 /** DRUPAL OVERRIDES **/
-/* line 783, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 788, ../sass/screen.scss */
+/* line 791, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 797, ../sass/screen.scss */
+/* line 800, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;
