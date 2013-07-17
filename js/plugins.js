@@ -21,6 +21,6 @@
 		});
 		// individual element tween examples
 		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), .5, {css:{opacity: 0}}));
-		controller.addTween('.project-4 .project-inner', TweenMax.from( $('.project-4 .project-inner'), .5, {css:{right:'1000px'}}));
+		controller.addTween('.project-4 .project-inner', TweenMax.from( $('.project-4 .project-inner'), .5, {css:{right:'3000px'}}));
 	});
 })(jQuery);
