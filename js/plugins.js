@@ -17,7 +17,7 @@
 
 		var controller = $.superscrollorama({
 			reverse: false,
-			triggerAtCenter: false
+			triggerAtCenter: true
 		});
 		// individual element tween examples
 		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), 0.5, {css:{opacity: 0}}));
