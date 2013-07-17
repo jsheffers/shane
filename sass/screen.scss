@@ -275,6 +275,7 @@ h6 {@include adjust-font-size-to(16px);}
 
 // WEB PROJECTS
 .project {
+	.project-inner { position: relative; }
 	.featured-image {
 		float: left;
 		margin: 0;
