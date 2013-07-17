@@ -20,7 +20,8 @@
 			triggerAtCenter: true
 		});
 		// individual element tween examples
-		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), 0.5, {css:{opacity: 0}}));
-		controller.addTween('.project-4 .project-inner', TweenMax.from( $('.project-4 .project-inner'), 0.75, {css:{right:'3000px'}, ease:Quad.easeInOut}));
+		controller.addTween('.project-1 .project-inner', TweenMax.from( $('.project-1 .project-inner'), 0.75, {css:{opacity: 0}}));
+		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), 0.75, {css:{opacity: 0}}));
+		controller.addTween('.project-4 .project-inner', TweenMax.from( $('.project-4 .project-inner'), 0.75, {css:{opacity: 0}}));
 	});
 })(jQuery);
