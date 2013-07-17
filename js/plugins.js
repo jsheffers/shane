@@ -16,7 +16,8 @@
 		});
 
 		var controller = $.superscrollorama({
-			reverse: false
+			reverse: false,
+			triggerAtCenter: 'top'
 		});
 		// individual element tween examples
 		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), .5, {css:{opacity: 0}}));
