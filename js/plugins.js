@@ -17,6 +17,6 @@
 
 		var controller = $.superscrollorama();
 		// individual element tween examples
-		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), .5, {css:{opacity: 0}}));
+		controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), .5, {css:{opacity: 0}}), false);
 	});
 })(jQuery);
