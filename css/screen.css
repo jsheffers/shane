@@ -4760,6 +4760,10 @@ h6 {
 .project-3 .featured-image, .project-4 .featured-image {
   opacity: 0; }
 
+/* line 390, ../sass/screen.scss */
+.show {
+  opacity: 1; }
+
 /* line 394, ../sass/screen.scss */
 .scrolled {
   padding: 50px 0;
