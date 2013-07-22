@@ -23,6 +23,7 @@ scripts[] = js/formalize.js
 scripts[] = js/script.js
 scripts[] = js/TweenMax.min.js
 scripts[] = js/jquery.superscrollorama.js
+scripts[] = js/jquery.inview.js
 scripts[] = js/plugins-ck.js
 
 
