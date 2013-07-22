@@ -226,8 +226,14 @@ h6 {@include adjust-font-size-to(16px);}
 			position: absolute;
 			top: 74px;
 			left: 699px;
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			filter: alpha(opacity=0);
 			opacity: 0;
 			-webkit-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
+			-moz-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
+			-ms-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
+			-o-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
+			animation: fadeInDown .5s ease-in .75s 1 normal forwards;
 		}
 		.sprites-iphone {
 			width: $iphoneWidth;
@@ -235,8 +241,14 @@ h6 {@include adjust-font-size-to(16px);}
 			position: absolute;
 			top: 125px;
 			left: 258px;
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			filter: alpha(opacity=0);
 			opacity: 0;
 			-webkit-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
+			-moz-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
+			-ms-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
+			-o-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
+			animation: fadeInDown .5s ease-in 1s 1 normal forwards;
 		}
 		.sprites-macbook {
 			width: $macWidth;
@@ -244,8 +256,14 @@ h6 {@include adjust-font-size-to(16px);}
 			position: absolute;
 			top: 80px;
 			left: 358px;
+			-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			filter: alpha(opacity=0);
 			opacity: 0;
 			-webkit-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
+			-moz-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
+			-ms-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
+			-o-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
+			animation: fadeInDown .5s ease-in .5s 1 normal forwards;
 		}
 		.btn-large {
 			position: absolute;
