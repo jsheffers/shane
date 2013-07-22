@@ -15,22 +15,13 @@
 			$('.contact-full').slideToggle();
 		});
 
-	// 	var controller = $.superscrollorama({
-	// 		reverse: false,
-	// 		triggerAtCenter: true
-	// 	});
-	// 	// individual element tween examples
-	// 	controller.addTween('.project-3 .project-inner', TweenMax.from( $('.project-3 .project-inner'), 0.75, {css:{opacity: 0}}));
-	// 	controller.addTween('.project-4 .project-inner', TweenMax.from( $('.project-4 .project-inner'), 0.75, {css:{opacity: 0}}));
-	// });
+		$('.views-row-even.project .featured-image').bind('inview', function (event, visible) {
+			if (visible === true) {
+				$(this).addClass('fadeInRightBig animated');
+			} else {
+				$(this).addClass('show');
+			}
+		});
 
-	$('.views-row-even.project .featured-image').bind('inview', function (event, visible) {
-	  if (visible == true) {
-	    $(this).addClass('fadeInRightBig animated');
-	  } else {
-	  	$(this).addClass('show');
-	  }
 	});
-
-	
 })(jQuery);
