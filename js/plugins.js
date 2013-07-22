@@ -32,14 +32,14 @@
 
 		$('.views-row-odd.project .featured-image').bind('inview', function (event, visible) {
 			if (visible === true) {
-				$(this).addClass('fadeInRightBig animated');
+				$(this).addClass('fadeInLeftBig animated');
 			} else {
 				$(this).addClass('show');
 			}
 		});
 		$('.views-row-odd.project .project-content').bind('inview', function (event, visible) {
 			if (visible === true) {
-				$(this).addClass('fadeInLeftBig animated');
+				$(this).addClass('fadeInRightBig animated');
 			} else {
 				$(this).addClass('show');
 			}
