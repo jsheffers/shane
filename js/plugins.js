@@ -45,5 +45,28 @@
 			}
 		});
 
+		$('.section .section-image').bind('inview', function (event, visible) {
+			if (visible === true) {
+				$(this).addClass('fadeInLeftBig animated');
+			} else {
+				$(this).addClass('show');
+			}
+		});
+		$('.section .section-content').bind('inview', function (event, visible) {
+			if (visible === true) {
+				$(this).addClass('fadeInRightBig animated');
+			} else {
+				$(this).addClass('show');
+			}
+		});
+
+		$('.section .section-image.right').bind('inview', function (event, visible) {
+			if (visible === true) {
+				$(this).addClass('fadeInRightBig animated');
+			} else {
+				$(this).addClass('show');
+			}
+		});
+
 	});
 })(jQuery);
