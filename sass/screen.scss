@@ -225,6 +225,9 @@ h6 {@include adjust-font-size-to(16px);}
 			-webkit-animation-delay: 1.3s;
 			-webkit-animation-iteration-count: 1;
 			& em { color: $light-gray;}
+			@include at-breakpoint($iphone){
+				position: relative;
+			}
 		}
 		.sprites-ipad {
 			width: $ipadWidth;
@@ -240,6 +243,9 @@ h6 {@include adjust-font-size-to(16px);}
 			-ms-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
 			-o-animation: fadeInDown .5s ease-in .75s 1 normal forwards;
 			animation: fadeInDown .5s ease-in .75s 1 normal forwards;
+			@include at-breakpoint($iphone){
+				position: relative;
+			}
 		}
 		.sprites-iphone {
 			width: $iphoneWidth;
@@ -255,6 +261,9 @@ h6 {@include adjust-font-size-to(16px);}
 			-ms-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
 			-o-animation: fadeInDown .5s ease-in 1s 1 normal forwards;
 			animation: fadeInDown .5s ease-in 1s 1 normal forwards;
+			@include at-breakpoint($iphone){
+				position: relative;
+			}
 		}
 		.sprites-macbook {
 			width: $macWidth;
@@ -270,6 +279,9 @@ h6 {@include adjust-font-size-to(16px);}
 			-ms-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
 			-o-animation: fadeInDown .5s ease-in .5s 1 normal forwards;
 			animation: fadeInDown .5s ease-in .5s 1 normal forwards;
+			@include at-breakpoint($iphone){
+				position: relative;
+			}
 		}
 		.btn-large {
 			position: absolute;
@@ -280,6 +292,9 @@ h6 {@include adjust-font-size-to(16px);}
 			-webkit-animation-delay: 1.2s;
 			-webkit-animation-iteration-count: 1;
 			@extend .btnLarge;
+			@include at-breakpoint($iphone){
+				position: relative;
+			}
 		}
 	}
 }
