@@ -516,8 +516,16 @@ h6 {@include adjust-font-size-to(16px);}
 				&.first { padding: 0 0 100px 0; }
 				&.last{ border-bottom: 0; }
 				.section-image {
+					@include at-breakpoint($iphone){
+						@include span-columns(4, 4);
+					}
 					@include span-columns(7, 12);
-					&.right { @include span-columns(7 omega, 12); }
+					&.right {
+						@include span-columns(7 omega, 12);
+						@include at-breakpoint($iphone){
+							@include span-columns(4, 4);
+						}
+					}
 					&.ipad {
 						@include at-breakpoint($iphone){
 							@include span-columns(4, 4);
