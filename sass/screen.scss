@@ -450,8 +450,13 @@ h6 {@include adjust-font-size-to(16px);}
 		padding: 30px 0;
 		.web-full { @extend .browserImage; }
 		.content-inner{
-			.main { position: relative;}
 			position: relative;
+			.main { position: relative;}
+			img {
+				@include at-breakpoint($iphone) {
+					width: 100%;
+				}
+			}
 			.flippy {
 				position: absolute;
 				top: 10px;
