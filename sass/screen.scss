@@ -537,6 +537,10 @@ h6 {@include adjust-font-size-to(16px);}
 				.section-content {
 					@include span-columns(4, 12);
 					@include push(.5);
+					@include at-breakpoint($iphone){
+						@include span-columns(4, 4);
+						@include push(0);
+					}
 					h2 {
 						color: #fff;
 						line-height: 35px;
