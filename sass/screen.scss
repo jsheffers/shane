@@ -556,6 +556,9 @@ h6 {@include adjust-font-size-to(16px);}
 				&.iphone2 {
 					.section-image {
 						@include span-columns(8, 12);
+						@include at-breakpoint($iphone){
+							@include span-columns(4, 4);
+						}
 						& img {
 							float: left;
 							&:first-child {
@@ -565,6 +568,9 @@ h6 {@include adjust-font-size-to(16px);}
 					}
 					.section-content {
 						@include span-columns(3, 12);
+						@include at-breakpoint($iphone){
+							@include span-columns(4, 4);
+						}
 					}
 				}
 			}
