@@ -462,6 +462,9 @@ h6 {@include adjust-font-size-to(16px);}
 				top: 10px;
 				right: 0;
 				padding: 0;
+				@include at-breakpoint($iphone){
+					display: none;
+				}
 				& li {
 					padding: 0;
 					margin-left: 15px;
@@ -492,6 +495,9 @@ h6 {@include adjust-font-size-to(16px);}
 				position: absolute;
 				top: 0;
 				right: 100px;
+				@include at-breakpoint($iphone){
+					display: none;
+				}
 				& a {
 					border: 1px solid #222;
 					background: transparent;
