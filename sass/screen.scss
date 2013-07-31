@@ -188,11 +188,17 @@ h6 {@include adjust-font-size-to(16px);}
 				li {
 					list-style: none;
 					float: left;
+					@include at-breakpoint($iphone){
+						margin: 0;
+					}
 					& a {
 						color: #f7f7f7;
 						text-decoration: none;
 						@include adjust-font-size-to(18px);
 						padding: 0 5px;
+						@include at-breakpoint($iphone){
+							padding: 0;
+						}
 					}
 				}
 			}
