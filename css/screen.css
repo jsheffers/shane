@@ -4387,10 +4387,10 @@ h6 {
 .node-type-blog .content-inner, .blog-container,
 .page-blog .view-blog .blog-header, .contact {
   *zoom: 1;
-  max-width: 1108px;
-  _width: 1108px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 69.25em;
+  _width: 69.25em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
   margin-left: auto;
   margin-right: auto; }
   /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -4407,9 +4407,9 @@ h6 {
     .featured-inner, .node-type-project .content-inner,
     .node-type-blog .content-inner, .blog-container,
     .page-blog .view-blog .blog-header, .contact {
-      max-width: 356px;
-      padding-left: 20px;
-      padding-right: 20px;
+      max-width: 22.25em;
+      padding-left: 1.25em;
+      padding-right: 1.25em;
       margin-left: auto;
       margin-right: auto; }
       /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -4426,9 +4426,9 @@ h6 {
     .featured-inner, .node-type-project .content-inner,
     .node-type-blog .content-inner, .blog-container,
     .page-blog .view-blog .blog-header, .contact {
-      max-width: 920px;
-      padding-left: 20px;
-      padding-right: 20px;
+      max-width: 57.5em;
+      padding-left: 1.25em;
+      padding-right: 1.25em;
       margin-left: auto;
       margin-right: auto; }
       /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -4493,7 +4493,7 @@ h6 {
     width: 23.64621%;
     float: right;
     margin-right: 0;
-    *margin-left: -20px;
+    *margin-left: -1.25em;
     display: inline; }
     @media (min-width: 20em) and (max-width: 35.5em) {
       /* line 178, ../sass/screen.scss */
@@ -4961,7 +4961,7 @@ h6 {
           width: 57.58123%;
           float: right;
           margin-right: 0;
-          *margin-left: -20px;
+          *margin-left: -1.25em;
           display: inline; }
           @media (min-width: 20em) and (max-width: 35.5em) {
             /* line 560, ../sass/screen.scss */
@@ -5162,7 +5162,7 @@ h6 {
     width: 49.09747%;
     float: right;
     margin-right: 0;
-    *margin-left: -20px;
+    *margin-left: -1.25em;
     display: inline; }
     @media (min-width: 20em) and (max-width: 35.5em) {
       /* line 705, ../sass/screen.scss */
@@ -5277,7 +5277,7 @@ h6 {
     width: 23.64621%;
     float: right;
     margin-right: 0;
-    *margin-left: -20px;
+    *margin-left: -1.25em;
     display: inline; }
     /* line 793, ../sass/screen.scss */
     .footer footer .block-menu-block .content .menu {
@@ -5311,7 +5311,7 @@ h6 {
     width: 49.09747%;
     float: right;
     margin-right: 0;
-    *margin-left: -20px;
+    *margin-left: -1.25em;
     display: inline; }
     /* line 826, ../sass/screen.scss */
     .contact-full #block-webform-client-block-11 h2 {
