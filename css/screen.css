@@ -4522,7 +4522,7 @@ h6 {
         @media (min-width: 320px) and (max-width: 568px) {
           /* line 188, ../sass/screen.scss */
           .header-full .header #block-system-main-menu .content ul.menu li {
-            margin: 0; } }
+            margin: 0 10px 0 0; } }
         /* line 194, ../sass/screen.scss */
         .header-full .header #block-system-main-menu .content ul.menu li a {
           color: #f7f7f7;

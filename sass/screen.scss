@@ -189,7 +189,7 @@ h6 {@include adjust-font-size-to(16px);}
 					list-style: none;
 					float: left;
 					@include at-breakpoint($iphone){
-						margin: 0;
+						margin: 0 10px 0 0;
 					}
 					& a {
 						color: #f7f7f7;
