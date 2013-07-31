@@ -227,6 +227,7 @@ h6 {@include adjust-font-size-to(16px);}
 			& em { color: $light-gray;}
 			@include at-breakpoint($iphone){
 				position: relative;
+				top: 0;
 			}
 		}
 		.sprites-ipad {
@@ -283,6 +284,8 @@ h6 {@include adjust-font-size-to(16px);}
 			animation: fadeInDown .5s ease-in .5s 1 normal forwards;
 			@include at-breakpoint($iphone){
 				position: relative;
+				top: 0;
+				left: 0;
 			}
 		}
 		.btn-large {
@@ -296,6 +299,9 @@ h6 {@include adjust-font-size-to(16px);}
 			@extend .btnLarge;
 			@include at-breakpoint($iphone){
 				position: relative;
+				top: 0;
+				margin-left: 0;
+				left: 0;
 			}
 		}
 	}
