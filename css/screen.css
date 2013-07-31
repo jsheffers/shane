@@ -4540,10 +4540,6 @@ h6 {
 .featured .featured-inner {
   min-height: 500px;
   position: relative; }
-  @media (min-width: 320px) and (max-width: 568px) {
-    /* line 213, ../sass/screen.scss */
-    .featured .featured-inner {
-      display: none; } }
   /* line 217, ../sass/screen.scss */
   .featured .featured-inner .site-title {
     font-family: Montserrat;
