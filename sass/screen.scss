@@ -130,7 +130,10 @@ h6 {@include adjust-font-size-to(16px);}
 .page-blog .view-blog .blog-header, .contact {
 	@include container;
 	// @include susy-grid-background;
-	@include at-breakpoint($iphone){ @include container; }
+	@include at-breakpoint($iphone){
+		@include container;
+		@include span-columns(4,4);
+	}
 	@include at-breakpoint($ipad){ @include container; }
 }
 
