@@ -228,6 +228,7 @@ h6 {@include adjust-font-size-to(16px);}
 			@include at-breakpoint($iphone){
 				position: relative;
 				top: 0;
+				@include adjust-font-size-to(20px);
 			}
 		}
 		.sprites-ipad {
