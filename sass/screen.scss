@@ -245,6 +245,7 @@ h6 {@include adjust-font-size-to(16px);}
 			animation: fadeInDown .5s ease-in .75s 1 normal forwards;
 			@include at-breakpoint($iphone){
 				position: relative;
+				display: none;
 			}
 		}
 		.sprites-iphone {
@@ -263,6 +264,7 @@ h6 {@include adjust-font-size-to(16px);}
 			animation: fadeInDown .5s ease-in 1s 1 normal forwards;
 			@include at-breakpoint($iphone){
 				position: relative;
+				display: none;
 			}
 		}
 		.sprites-macbook {
