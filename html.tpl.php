@@ -47,7 +47,7 @@
 <html lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>">  
 <head>
   <title><?php print $head_title; ?></title>
-  <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+  <meta name="viewport" content="initial-scale=1.0">
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
