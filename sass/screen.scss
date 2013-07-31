@@ -49,7 +49,6 @@ $gutter-width   : 1.25em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 $iphone: 20em 4 35.5em;
 $ipad: 768px 10 1024px;
-$container-style: fluid;
 
 // MEDIA QUERIES
 
@@ -131,7 +130,7 @@ h6 {@include adjust-font-size-to(16px);}
 .page-blog .view-blog .blog-header, .contact {
 	@include container;
 	// @include susy-grid-background;
-	@include at-breakpoint($iphone){ @include container; }
+	@include at-breakpoint($iphone){ $container-style: fluid; @include container; }
 	@include at-breakpoint($ipad){ @include container; }
 }
 
