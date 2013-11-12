@@ -4468,7 +4468,7 @@ h6 {
 .header-full {
   padding-top: 30px; }
   /* line 170, ../sass/screen.scss */
-  .header-full .header .logo {
+  .header-full .header .logo img {
     width: 220px;
     height: 29px;
     display: block;
@@ -4478,7 +4478,7 @@ h6 {
     display: inline; }
     @media (min-width: 20em) and (max-width: 35.5em) {
       /* line 170, ../sass/screen.scss */
-      .header-full .header .logo {
+      .header-full .header .logo img {
         width: 100%;
         float: left;
         margin-right: 5.61798%; } }
