@@ -167,12 +167,14 @@ h6 {@include adjust-font-size-to(16px);}
 .header-full {
 	padding-top: 30px;
 	.header  {
-		.logo img {
-			width: 220px;
-			height: 29px;
+		.logo {
 			display: block;
 			@include span-columns(3,12);
 			@include at-breakpoint($iphone) { @include span-columns(4,4); }
+			img {
+				width: 220px;
+				height: 29px;
+			}
 		}
 		.mobile-toggle { display: none; }
 		#block-system-main-menu {
