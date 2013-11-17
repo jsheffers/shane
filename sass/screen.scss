@@ -426,7 +426,14 @@ h6 {@include adjust-font-size-to(16px);}
 
 // PROJECT BACKGROUNDS
 
-.project-1 { background: $fm_bg; }
+.project-1 {
+	background: $fm_bg;
+	.featured-image {
+		img {
+			width: 291px;
+		}
+	}
+}
 .project-2 { background: #92b170; }
 .project-3 {
 	background: $nsf_bg;
