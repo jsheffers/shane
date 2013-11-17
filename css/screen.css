@@ -4787,10 +4787,10 @@ h6 {
     display: block; }
 
 /* line 429, ../sass/screen.scss */
-.project-1 {
+.project-1.ios {
   background: #e64a3e; }
   /* line 432, ../sass/screen.scss */
-  .project-1 .featured-image img {
+  .project-1.ios .featured-image img {
     width: 291px; }
 
 /* line 437, ../sass/screen.scss */
