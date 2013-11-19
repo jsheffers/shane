@@ -215,7 +215,7 @@ h6 {@include adjust-font-size-to(16px);}
 	.featured-inner {
 		min-height: 500px;
 		position: relative;
-		// @include at-breakpoint($iphone){ display: none; }
+		@include at-breakpoint($iphone){ display: none; }
 		.site-title {
 			font-family: $base;
 			color: #fff;
