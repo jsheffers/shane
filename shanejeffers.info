@@ -21,10 +21,8 @@ regions[footer] = Footer
 
 scripts[] = js/formalize.js
 scripts[] = js/script.js
-scripts[] = js/TweenMax.min.js
-scripts[] = js/jquery.superscrollorama.js
 scripts[] = js/jquery.inview.js
-scripts[] = js/plugins-ck.js
+scripts[] = js/plugins-min.js
 
 
 ; Information added by drupal.org packaging script on 2013-04-03
