@@ -18,7 +18,7 @@
     <div class="sprites-macbook"></div>
     <div class="sprites-ipad"></div>
     <h1 class="site-title animated fadeInUp">Design <em>•</em> Develop <em>•</em> Deploy</h1>
-    <a href="#" class="btn-large animated fadeInLeftBig">Hire Me</a>
+    <a href="mailto:shanejeffers@mac.com" class="btn-large animated fadeInLeftBig">Hire Me</a>
   </div>
 </section>
 <!-- CONTENT -->
