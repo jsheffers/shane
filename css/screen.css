@@ -4870,6 +4870,9 @@ h6 {
 .node-type-project .content-wrap {
   margin-top: 30px;
   padding: 30px 0; }
+  /* line 491, ../sass/screen.scss */
+  .node-type-project .content-wrap .web-full {
+    width: 1065px; }
   /* line 492, ../sass/screen.scss */
   .node-type-project .content-wrap .content-inner {
     position: relative; }
