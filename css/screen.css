@@ -5249,90 +5249,94 @@ h6 {
   .page-node-9 .content-wrap .field-name-body ol, .page-node-9 .content-wrap .field-name-body ul {
     color: #333; }
 
-/* line 780, ../sass/screen.scss */
+/* line 779, ../sass/screen.scss */
+.page-node-1 .section.last img {
+  width: 600px; }
+
+/* line 784, ../sass/screen.scss */
 .blog-5 {
   background: #f9ad25; }
 
-/* line 781, ../sass/screen.scss */
+/* line 785, ../sass/screen.scss */
 .blog-6 {
   background: #1878e1; }
-  /* line 783, ../sass/screen.scss */
+  /* line 787, ../sass/screen.scss */
   .blog-6 p {
     color: #ccc; }
 
-/* line 785, ../sass/screen.scss */
+/* line 789, ../sass/screen.scss */
 .blog-7 {
   background: #b1cacd; }
 
-/* line 786, ../sass/screen.scss */
+/* line 790, ../sass/screen.scss */
 .blog-9 {
   background: #6c6c6c; }
-  /* line 788, ../sass/screen.scss */
+  /* line 792, ../sass/screen.scss */
   .blog-9 p {
     color: #333; }
 
-/* line 793, ../sass/screen.scss */
+/* line 797, ../sass/screen.scss */
 .footer footer {
   padding: 30px 20px; }
-  /* line 795, ../sass/screen.scss */
+  /* line 799, ../sass/screen.scss */
   .footer footer .block {
     width: 32.12996%;
     float: left;
     margin-right: 1.80505%;
     display: inline;
     color: #fff; }
-  /* line 799, ../sass/screen.scss */
+  /* line 803, ../sass/screen.scss */
   .footer footer .block-menu-block {
     width: 23.64621%;
     float: right;
     margin-right: 0;
     *margin-left: -1.25em;
     display: inline; }
-    /* line 802, ../sass/screen.scss */
+    /* line 806, ../sass/screen.scss */
     .footer footer .block-menu-block .content .menu {
       float: right; }
-      /* line 804, ../sass/screen.scss */
+      /* line 808, ../sass/screen.scss */
       .footer footer .block-menu-block .content .menu li {
         list-style: none;
         float: left;
         margin: 0;
         padding: 0 0 0 20px; }
-        /* line 809, ../sass/screen.scss */
+        /* line 813, ../sass/screen.scss */
         .footer footer .block-menu-block .content .menu li a {
           color: #fff;
           text-decoration: none; }
 
-/* line 823, ../sass/screen.scss */
+/* line 827, ../sass/screen.scss */
 .contact-full {
   display: none;
   padding: 30px 0;
   background: #e64a3e;
   overflow: hidden; }
-  /* line 828, ../sass/screen.scss */
+  /* line 832, ../sass/screen.scss */
   .contact-full .contact {
     position: relative; }
-  /* line 829, ../sass/screen.scss */
+  /* line 833, ../sass/screen.scss */
   .contact-full h2 {
     color: #fff;
     font-family: HelveticaNeue-CondensedBold, sans-serif; }
-  /* line 833, ../sass/screen.scss */
+  /* line 837, ../sass/screen.scss */
   .contact-full #block-webform-client-block-11 {
     width: 49.09747%;
     float: right;
     margin-right: 0;
     *margin-left: -1.25em;
     display: inline; }
-    /* line 835, ../sass/screen.scss */
+    /* line 839, ../sass/screen.scss */
     .contact-full #block-webform-client-block-11 h2 {
       display: none; }
-  /* line 837, ../sass/screen.scss */
+  /* line 841, ../sass/screen.scss */
   .contact-full #block-block-3 {
     width: 40.61372%;
     float: left;
     margin-right: 1.80505%;
     display: inline;
     margin-top: 80px; }
-  /* line 841, ../sass/screen.scss */
+  /* line 845, ../sass/screen.scss */
   .contact-full .sprites-close {
     width: 53px;
     height: 53px;
@@ -5341,10 +5345,10 @@ h6 {
     top: 5px;
     left: 18px; }
 
-/* line 852, ../sass/screen.scss */
+/* line 856, ../sass/screen.scss */
 .webform-client-form label {
   display: none; }
-/* line 853, ../sass/screen.scss */
+/* line 857, ../sass/screen.scss */
 .webform-client-form input[type=text], .webform-client-form input[type=email] {
   background: #333;
   border-radius: 5px;
@@ -5353,7 +5357,7 @@ h6 {
   border: none;
   font-family: Montserrat;
   color: #ccc; }
-/* line 862, ../sass/screen.scss */
+/* line 866, ../sass/screen.scss */
 .webform-client-form textarea {
   background: #333;
   border-radius: 5px;
@@ -5361,23 +5365,23 @@ h6 {
   border: none;
   font-family: Montserrat;
   color: #ccc; }
-/* line 870, ../sass/screen.scss */
+/* line 874, ../sass/screen.scss */
 .webform-client-form input[type=submit] {
   text-shadow: none;
   font-family: Montserrat; }
 
 /** DRUPAL OVERRIDES **/
-/* line 901, ../sass/screen.scss */
+/* line 905, ../sass/screen.scss */
 .messages {
   margin-top: 1.5em; }
 
-/* line 906, ../sass/screen.scss */
+/* line 910, ../sass/screen.scss */
 .maintenance-page #page {
   width: 430px;
   margin: 100px auto;
   color: #fff; }
 
-/* line 915, ../sass/screen.scss */
+/* line 919, ../sass/screen.scss */
 #disqus_thread {
   padding: 20px;
   margin: 30px 0;
