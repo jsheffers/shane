@@ -496,6 +496,9 @@ h6 {@include adjust-font-size-to(16px);}
 				@include at-breakpoint($iphone) {
 					width: 100%;
 				}
+				@include at-breakpoint($ipad) {
+					width: 100%;
+				}
 			}
 			.flippy {
 				position: absolute;

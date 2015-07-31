@@ -3371,6 +3371,9 @@ h6 {
     @media (min-width: 0px) and (max-width: 767px) {
       .node-type-project .content-wrap .content-inner img {
         width: 100%; } }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .node-type-project .content-wrap .content-inner img {
+        width: 100%; } }
     .node-type-project .content-wrap .content-inner .flippy {
       position: absolute;
       top: 10px;
