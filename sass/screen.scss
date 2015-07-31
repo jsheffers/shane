@@ -780,6 +780,12 @@ h6 {@include adjust-font-size-to(16px);}
 
 	// FANTASY MATCHUP CASE STUDY
 	.page-node-1 .section.last img {
+		@include at-breakpoint($iphone) {
+			max-width: 100%;
+		}
+		@include at-breakpoint($ipad) {
+			max-width: 100%;
+		}
 		width: 600px;
 	}
 

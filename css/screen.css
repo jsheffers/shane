@@ -3683,6 +3683,12 @@ h6 {
 
 .page-node-1 .section.last img {
   width: 600px; }
+  @media (min-width: 0px) and (max-width: 767px) {
+    .page-node-1 .section.last img {
+      max-width: 100%; } }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .page-node-1 .section.last img {
+      max-width: 100%; } }
 
 .blog-5 {
   background: #f9ad25; }
