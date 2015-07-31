@@ -47,7 +47,7 @@ $total-columns  : 12;             // a 12-column grid
 $column-width   : 4.625em;            // each column is 4em wide
 $gutter-width   : 1.25em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
-$iphone: 20em 4 35.5em;
+$iphone: 0px 4 767px;
 $ipad: 768px 10 1024px;
 
 // MEDIA QUERIES
